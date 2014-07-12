@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../MavenNoter/MavenNoter.iml" filepath="$PROJECT_DIR$/../MavenNoter/MavenNoter.iml" />
       <module fileurl="file://$PROJECT_DIR$/Note.iml" filepath="$PROJECT_DIR$/Note.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestWv/TestWv.iml" filepath="$PROJECT_DIR$/TestWv/TestWv.iml" />
     </modules>
   </component>
 </project>

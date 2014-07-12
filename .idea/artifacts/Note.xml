@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Note">
+    <output-path>$PROJECT_DIR$/out/artifacts/Note</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.Main" />
+        <option name="description" value="csa&#9;&#9;&#9;" />
+        <option name="htmlParamFile" value="" />
+        <option name="paramFile" value="" />
+        <option name="title" value="NoterNew" />
+        <option name="vendor" value="vyc" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="Note.jar">
+        <element id="module-output" name="Note" />
+      </element>
+    </root>
+  </artifact>
+</component>

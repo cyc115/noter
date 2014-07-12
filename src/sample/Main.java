@@ -4,7 +4,6 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.TextArea;
 import javafx.scene.web.WebView;
 import javafx.stage.Stage;
 
@@ -18,13 +17,21 @@ import static sample.AppUtils.lookUp;
 //TODO implement a concrete RenderEngine
 //TODO implement a concrete RenderSurface
 
+//12/07/14
+//TODO lacks markdown hightlight
+//TODO editor does not fill the pane
+
+
 public class Main extends Application {
     private Logger l = Logger.getLogger(Main.class.getName());
-    private TextArea textArea ;
-    private WebView webView ;
+    private WebView editor;
+    private WebView display;
 
     private Scene scene;
 
+    public static void main(String[] args) {
+        launch(args);
+    }
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("../ui/note_main.fxml"));
@@ -34,9 +41,19 @@ public class Main extends Application {
         primaryStage.show();
         li(this,"initialized main");
 
-        textArea = lookUp(root, "#textarea", TextArea.class);
-        textArea.setText("hello world set text");
-        textArea.setWrapText(true);
-        textArea.textProperty().addListener(MainController.textAreaKeyTyped);
+        initEditor(root);
+
+        //initDisplay(root);
+
+    }
+
+    private void initDisplay(Parent root) throws ObjectNotFoundException {
+        display = lookUp(root, "#webdisplay", WebView.class);
+        display.getEngine().load("https://google.com");
+    }
+
+    private void initEditor(Parent root) throws ObjectNotFoundException {
+        editor = lookUp(root, "#editor", WebView.class);
+        editor.getEngine().load(getClass().getResource("../ui/editor.html").toExternalForm());
     }
 }
