@@ -6,8 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="fixed auto complete css not fund">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ui/editor.html" afterPath="$PROJECT_DIR$/src/ui/editor.html" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="work in progrss : gfm&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/codemirror-4.3/mode/gfm/gfm.js" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/gfm/gfm.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -79,11 +79,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editor.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="editor.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ui/editor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16851442" vertical-offset="551" max-vertical-offset="1178">
+            <state vertical-scroll-proportion="-2.7142856" vertical-offset="551" max-vertical-offset="1178">
               <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gfm.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/codemirror-4.3/mode/gfm/gfm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.40128756" vertical-offset="0" max-vertical-offset="2176">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -161,6 +171,7 @@
         <option value="$PROJECT_DIR$/src/ui/note_main.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/ui/editor.html" />
+        <option value="$PROJECT_DIR$/src/codemirror-4.3/mode/gfm/gfm.js" />
       </list>
     </option>
   </component>
@@ -453,6 +464,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Note" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Note" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codemirror-4.3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Note" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Note" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codemirror-4.3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gfm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -469,7 +528,7 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="commi&#9;ACTION&#9;CheckinProject&#10;commit&#9;ACTION&#9;CheckinProject&#10;refac&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;line&#9;ACTION&#9;EditorToggleShowLineNumbers&#10;build art&#9;ACTION&#9;BuildArtifact&#10;arti&#9;ACTION&#9;BuildArtifact&#10;full screen&#9;ACTION&#9;ToggleFullScreen&#10;new&#9;ACTION&#9;NewGroup&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;github&#9;null&#9;null&#10;git&#9;ACTION&#9;Git.Init&#10;task mana&#9;null&#9;null&#10;tas&#9;PSI&#9;JAVA://javax.swing.plaf.synth.SynthDesktopPaneUI.TaskBar&#10;task&#9;null&#9;null&#10;fullsc&#9;PSI&#9;JAVA://com.sun.corba.se.impl.protocol.FullServantCacheLocalCRDImpl&#10;annotation&#9;null&#9;null&#10;maven&#9;ACTION&#9;ActivateMavenProjectsToolWindow&#10;plugin&#9;ACTION&#9;WelcomeScreen.Plugins&#10;plugi&#9;ACTION&#9;WelcomeScreen.Plugins&#10;&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/sample/Main.java&#10;run&#9;ACTION&#9;ActivateRunToolWindow&#10;buil&#9;ACTION&#9;BuildMenu&#10;full scree&#9;ACTION&#9;ToggleFullScreen&#10;console&#9;null&#9;null&#10;delete&#9;ACTION&#9;ChangesView.DeleteUnversioned.From.Dialog&#10;ref&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;refa&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;import&#9;null&#9;null&#10;main&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/sample/Main.java" />
+    <property name="SearchEverywhereHistoryKey" value="commit&#9;ACTION&#9;CheckinProject&#10;commi&#9;ACTION&#9;CheckinProject&#10;refac&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;line&#9;ACTION&#9;EditorToggleShowLineNumbers&#10;build art&#9;ACTION&#9;BuildArtifact&#10;arti&#9;ACTION&#9;BuildArtifact&#10;full screen&#9;ACTION&#9;ToggleFullScreen&#10;new&#9;ACTION&#9;NewGroup&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;github&#9;null&#9;null&#10;git&#9;ACTION&#9;Git.Init&#10;task mana&#9;null&#9;null&#10;tas&#9;PSI&#9;JAVA://javax.swing.plaf.synth.SynthDesktopPaneUI.TaskBar&#10;task&#9;null&#9;null&#10;fullsc&#9;PSI&#9;JAVA://com.sun.corba.se.impl.protocol.FullServantCacheLocalCRDImpl&#10;annotation&#9;null&#9;null&#10;maven&#9;ACTION&#9;ActivateMavenProjectsToolWindow&#10;plugin&#9;ACTION&#9;WelcomeScreen.Plugins&#10;plugi&#9;ACTION&#9;WelcomeScreen.Plugins&#10;&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/sample/Main.java&#10;run&#9;ACTION&#9;ActivateRunToolWindow&#10;buil&#9;ACTION&#9;BuildMenu&#10;full scree&#9;ACTION&#9;ToggleFullScreen&#10;console&#9;null&#9;null&#10;delete&#9;ACTION&#9;ChangesView.DeleteUnversioned.From.Dialog&#10;ref&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;refa&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;import&#9;null&#9;null&#10;main&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/sample/Main.java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../MavenNoter" />
     <property name="FullScreen" value="false" />
     <property name="options.lastSelected" value="settings.github" />
@@ -704,7 +763,11 @@
       <created>1405214907032</created>
       <updated>1405214907032</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="work in progrss : gfm&#10;">
+      <created>1405216127739</created>
+      <updated>1405216127739</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -745,7 +808,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18910256" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20192307" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3534884" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37871674" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3783988" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -808,7 +871,8 @@
     <MESSAGE value="reverted back to old editor because I have broken the new one and added dynamic editor length&#10;" />
     <MESSAGE value="added general autocomplete support, firebug is hidden by default" />
     <MESSAGE value="fixed auto complete css not fund" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed auto complete css not fund" />
+    <MESSAGE value="work in progrss : gfm&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="work in progrss : gfm&#10;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -823,14 +887,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="425">
-          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestWv/src/CodeEditor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1632">
@@ -1210,8 +1266,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/editor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16851442" vertical-offset="551" max-vertical-offset="1178">
+        <state vertical-scroll-proportion="-2.7142856" vertical-offset="551" max-vertical-offset="1178">
           <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codemirror-4.3/mode/gfm/gfm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40128756" vertical-offset="0" max-vertical-offset="2176">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
