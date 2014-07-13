@@ -1,11 +1,16 @@
 <!doctype html>
-<html>
+<html debug=false>
 
 <head>
     <link rel="stylesheet" href="../codemirror-4.3/lib/codemirror.css">
     <script src="../codemirror-4.3/lib/codemirror.js"></script>
     <script src="../codemirror-4.3/mode/markdown/markdown.js"></script>
     <script src='../ui/firebug-lite-compressed.js'></script>
+    <!--autocomplete-->
+    <script src="../codemirror-4.3/addon/hint/show-hint.js"></script>
+    <script src="../codemirror-4.3/addon/hint/anyword-hint.js"></script>
+    <link rel="stylesheet" href="../codemirror-4.3/addon/hint/anyword-hint.css">
+
 </head>
 
 <body>
@@ -15,12 +20,16 @@
     </textarea>
 </form>
 <script>
-        var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
-            lineNumbers: true,
-            matchBrackets: true,
-            mode: "text/x-java"
-        });
+    var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+        lineNumbers: true,
+        matchBrackets: true,
+        mode: "text/x-java",
+        extraKeys: {"Ctrl-Space": "autocomplete"}
+    });
 
+    CodeMirror.commands.autocomplete = function(cm) {
+        cm.showHint({hint: CodeMirror.hint.anyword});
+    }
 </script>
 
 <!-- dynamically fit editor to code-->
