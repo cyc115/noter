@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="added general autocomplete support, firebug is hidden by default">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="fixed auto complete css not fund">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ui/editor.html" afterPath="$PROJECT_DIR$/src/ui/editor.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -82,8 +82,8 @@
       <file leaf-file-name="editor.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ui/editor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46341464" vertical-offset="0" max-vertical-offset="1026">
-              <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
+            <state vertical-scroll-proportion="0.16851442" vertical-offset="551" max-vertical-offset="1178">
+              <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -469,7 +469,7 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="commit&#9;ACTION&#9;CheckinProject&#10;refac&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;line&#9;ACTION&#9;EditorToggleShowLineNumbers&#10;build art&#9;ACTION&#9;BuildArtifact&#10;arti&#9;ACTION&#9;BuildArtifact&#10;full screen&#9;ACTION&#9;ToggleFullScreen&#10;new&#9;ACTION&#9;NewGroup&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;github&#9;null&#9;null&#10;git&#9;ACTION&#9;Git.Init&#10;task mana&#9;null&#9;null&#10;tas&#9;PSI&#9;JAVA://javax.swing.plaf.synth.SynthDesktopPaneUI.TaskBar&#10;task&#9;null&#9;null&#10;fullsc&#9;PSI&#9;JAVA://com.sun.corba.se.impl.protocol.FullServantCacheLocalCRDImpl&#10;annotation&#9;null&#9;null&#10;maven&#9;ACTION&#9;ActivateMavenProjectsToolWindow&#10;plugin&#9;ACTION&#9;WelcomeScreen.Plugins&#10;plugi&#9;ACTION&#9;WelcomeScreen.Plugins&#10;&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/sample/Main.java&#10;run&#9;ACTION&#9;ActivateRunToolWindow&#10;buil&#9;ACTION&#9;BuildMenu&#10;full scree&#9;ACTION&#9;ToggleFullScreen&#10;console&#9;null&#9;null&#10;delete&#9;ACTION&#9;ChangesView.DeleteUnversioned.From.Dialog&#10;ref&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;refa&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;import&#9;null&#9;null&#10;main&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/sample/Main.java" />
+    <property name="SearchEverywhereHistoryKey" value="commi&#9;ACTION&#9;CheckinProject&#10;commit&#9;ACTION&#9;CheckinProject&#10;refac&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;line&#9;ACTION&#9;EditorToggleShowLineNumbers&#10;build art&#9;ACTION&#9;BuildArtifact&#10;arti&#9;ACTION&#9;BuildArtifact&#10;full screen&#9;ACTION&#9;ToggleFullScreen&#10;new&#9;ACTION&#9;NewGroup&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;github&#9;null&#9;null&#10;git&#9;ACTION&#9;Git.Init&#10;task mana&#9;null&#9;null&#10;tas&#9;PSI&#9;JAVA://javax.swing.plaf.synth.SynthDesktopPaneUI.TaskBar&#10;task&#9;null&#9;null&#10;fullsc&#9;PSI&#9;JAVA://com.sun.corba.se.impl.protocol.FullServantCacheLocalCRDImpl&#10;annotation&#9;null&#9;null&#10;maven&#9;ACTION&#9;ActivateMavenProjectsToolWindow&#10;plugin&#9;ACTION&#9;WelcomeScreen.Plugins&#10;plugi&#9;ACTION&#9;WelcomeScreen.Plugins&#10;&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/sample/Main.java&#10;run&#9;ACTION&#9;ActivateRunToolWindow&#10;buil&#9;ACTION&#9;BuildMenu&#10;full scree&#9;ACTION&#9;ToggleFullScreen&#10;console&#9;null&#9;null&#10;delete&#9;ACTION&#9;ChangesView.DeleteUnversioned.From.Dialog&#10;ref&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;refa&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;import&#9;null&#9;null&#10;main&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/sample/Main.java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../MavenNoter" />
     <property name="FullScreen" value="false" />
     <property name="options.lastSelected" value="settings.github" />
@@ -700,7 +700,11 @@
       <created>1405214350642</created>
       <updated>1405214350642</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fixed auto complete css not fund">
+      <created>1405214907032</created>
+      <updated>1405214907032</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -728,7 +732,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1368" height="769" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31730768" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -738,7 +742,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31798562" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15256798" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18910256" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18910256" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20192307" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3534884" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37871674" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
@@ -803,7 +807,8 @@
     <MESSAGE value="minimized firebug on default" />
     <MESSAGE value="reverted back to old editor because I have broken the new one and added dynamic editor length&#10;" />
     <MESSAGE value="added general autocomplete support, firebug is hidden by default" />
-    <option name="LAST_COMMIT_MESSAGE" value="added general autocomplete support, firebug is hidden by default" />
+    <MESSAGE value="fixed auto complete css not fund" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed auto complete css not fund" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1092,6 +1097,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27803737" vertical-offset="0" max-vertical-offset="850">
           <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1113,6 +1119,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48353294" vertical-offset="0" max-vertical-offset="1598">
           <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1203,8 +1210,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/editor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46341464" vertical-offset="0" max-vertical-offset="1026">
-          <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
+        <state vertical-scroll-proportion="0.16851442" vertical-offset="551" max-vertical-offset="1178">
+          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
           <folding />
         </state>
       </provider>
