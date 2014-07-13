@@ -1,4 +1,4 @@
-package sample;
+package main;
 
 /**
  * TODO package level to allow further refactoring
@@ -8,14 +8,17 @@ package sample;
  * Created by yuechuan on 08/07/14.
  */
 class ObjectNotFoundException extends Exception {
-    private String msg ;
+    private String msg;
 
-    ObjectNotFoundException(){   }
-    ObjectNotFoundException(String s){
+    ObjectNotFoundException() {
+    }
+
+    ObjectNotFoundException(String s) {
         msg = s;
     }
 
-    @Override public String getMessage(){
+    @Override
+    public String getMessage() {
         return "current exception msg: " + msg +
                 super.getMessage();
     }

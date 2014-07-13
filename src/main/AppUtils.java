@@ -1,4 +1,4 @@
-package sample;
+package main;
 
 import javafx.scene.Node;
 
@@ -12,13 +12,14 @@ import static java.util.logging.Logger.getAnonymousLogger;
  * Created by yuechuan on 07/07/14.
  */
 public class AppUtils {
-    private static Logger log  = null;
+    private static Logger log = null;
+
     static {
         log = getAnonymousLogger();
     }
 
-    private AppUtils(){}
-
+    private AppUtils() {
+    }
 
 
     /**
@@ -32,15 +33,15 @@ public class AppUtils {
      * them the same id as root child. You can get VBox you need by
      * next utility method:
      * }
+     *
      * @param node parent node that hosts the element with id "id"
-     * @param id id of the element
-     * @param <T> Type of the element
+     * @param id   id of the element
+     * @param <T>  Type of the element
      * @return the element found
-     * @throws sample.ObjectNotFoundException when no element is found
+     * @throws main.ObjectNotFoundException when no element is found
      */
-    public static <T> T lookUp(Node parent , String id , Class <T> clazz)
-    throws ObjectNotFoundException
-    {
+    public static <T> T lookUp(Node parent, String id, Class<T> clazz)
+            throws ObjectNotFoundException {
         assert parent != null && id != null && clazz != null;
         assert !id.equals("");
         assert id.startsWith("#");
@@ -51,37 +52,40 @@ public class AppUtils {
             }
         }
 
-        throw new ObjectNotFoundException("cannot find element with id" + id );
+        throw new ObjectNotFoundException("cannot find element with id" + id);
     }
 
     /**
      * customized logger
+     *
      * @param objectType the class instance where the logging method is invoked
-     * @param lvl logging level
-     * @param msg log message
-     * @param <T> class type where logging is invoked
+     * @param lvl        logging level
+     * @param msg        log message
+     * @param <T>        class type where logging is invoked
      */
-    private static <T> void l(T objectType ,Level lvl,  String msg){
-        log.log(lvl,"[" + objectType.getClass().getName()+"]: " + msg);
+    private static <T> void l(T objectType, Level lvl, String msg) {
+        log.log(lvl, "[" + objectType.getClass().getName() + "]: " + msg);
     }
 
     /**
      * fine lvl logging
      */
-    public static <T> void lf(T objectTriype , String msg){
-        l(objectTriype,Level.FINE,msg);
+    public static <T> void lf(T objectTriype, String msg) {
+        l(objectTriype, Level.FINE, msg);
     }
+
     /**
      * info lvl logging
      */
-    public static <T> void li(T objectTriype , String msg){
-        l(objectTriype,Level.INFO,msg);
+    public static <T> void li(T objectTriype, String msg) {
+        l(objectTriype, Level.INFO, msg);
     }
+
     /**
      * warning lvl logging
      */
-    public static <T> void lw(T objectTriype , String msg){
-        l(objectTriype,Level.WARNING,msg);
+    public static <T> void lw(T objectTriype, String msg) {
+        l(objectTriype, Level.WARNING, msg);
     }
 
 

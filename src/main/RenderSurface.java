@@ -1,4 +1,4 @@
-package sample;
+package main;
 
 /**
  * Created by yuechuan on 10/07/14.
@@ -6,6 +6,7 @@ package sample;
 public interface RenderSurface {
     /**
      * displays the rendered text
+     *
      * @param renderedText
      * @throws IllegalArgumentException
      */
