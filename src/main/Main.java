@@ -7,6 +7,7 @@ import javafx.scene.Scene;
 import javafx.scene.web.WebView;
 import javafx.stage.Stage;
 
+import javax.naming.OperationNotSupportedException;
 import java.util.logging.Logger;
 
 import static main.AppUtils.li;
@@ -27,7 +28,7 @@ import static main.AppUtils.lookUp;
 public class Main extends Application {
     private Logger l = Logger.getLogger(Main.class.getName());
     private WebView editor;
-    private WebView display;
+    private WebViewSurface displaySurface;
 
     private Scene scene;
 
@@ -44,14 +45,21 @@ public class Main extends Application {
         li(this,"initialized main");
 
         initEditor(root);
-
-        //initDisplay(root);
+        initDisplay(root);
 
     }
 
     private void initDisplay(Parent root) throws ObjectNotFoundException {
-        display = lookUp(root, "#webdisplay", WebView.class);
+        WebView display = lookUp(root, "#webdisplay", WebView.class);
         display.getEngine().load("https://google.com");
+        try {
+            displaySurface = new WebViewSurface();
+            displaySurface.setSurface(display);
+        } catch (OperationNotSupportedException onse) {
+            onse.printStackTrace();
+        }
+        displaySurface.display("HelloWorldText");
+
     }
 
     private void initEditor(Parent root) throws ObjectNotFoundException {

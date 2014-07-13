@@ -1,19 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
+    <option name="ANALYSIS_IN_BACKGROUND" value="true" />
+  </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="Note" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="added markdown4j lib&#10;">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/AppUtils.java" afterPath="$PROJECT_DIR$/src/main/AppUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/Main.java" afterPath="$PROJECT_DIR$/src/main/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/MainController.java" afterPath="$PROJECT_DIR$/src/main/MainController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/ObjectNotFoundException.java" afterPath="$PROJECT_DIR$/src/main/ObjectNotFoundException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/RenderEngine.java" afterPath="$PROJECT_DIR$/src/main/RenderEngine.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/sample/RenderSurface.java" afterPath="$PROJECT_DIR$/src/main/RenderSurface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ui/note_main.fxml" afterPath="$PROJECT_DIR$/src/ui/note_main.fxml" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="changed sample package to main package&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/WebViewSurface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/markdown4j_2_2.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.fr-B96jn7/org/markdown4j/CodeBlockEmitter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.fr-B96jn7/org/markdown4j/ExtDecorator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.fr-B96jn7/org/markdown4j/HtmlAttributes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.fr-B96jn7/org/markdown4j/IncludePlugin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.fr-B96jn7/org/markdown4j/Markdown4jProcessor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.fr-B96jn7/org/markdown4j/Plugin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.fr-B96jn7/org/markdown4j/TablePlugin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.fr-B96jn7/org/markdown4j/WebSequencePlugin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/.fr-B96jn7/org/markdown4j/YumlPlugin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Amps and angle encoding.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Amps and angle encoding.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Anchors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Anchors.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Auto links.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Auto links.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Backslash escapes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Backslash escapes.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Blockquotes with code blocks.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Blockquotes with code blocks.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Hard-wrapped paragraphs with list-like lines.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Hard-wrapped paragraphs with list-like lines.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Horizontal rules.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Horizontal rules.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Inline HTML (Advanced).html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Inline HTML (Advanced).text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Inline HTML (Simple).html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Inline HTML (Simple).text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Inline HTML comments.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Inline HTML comments.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Links, reference style.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Links, reference style.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Markdown Documentation - Basics.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Markdown Documentation - Basics.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Markdown Documentation - Syntax.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Markdown Documentation - Syntax.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Nested blockquotes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Nested blockquotes.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Ordered and unordered lists.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Ordered and unordered lists.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Strong and em together.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Strong and em together.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Tabs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Tabs.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Tidyness.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/Tidyness.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/unpassed/Links, inline style.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/unpassed/Links, inline style.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/unpassed/Links, reference style.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/unpassed/Links, reference style.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/unpassed/Literal quotes in titles.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/MarkdownTest/unpassed/Literal quotes in titles.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/com/github/rjeschke/txtmark/Block.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/com/github/rjeschke/txtmark/BlockEmitter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/com/github/rjeschke/txtmark/BlockType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/com/github/rjeschke/txtmark/Configuration.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/com/github/rjeschke/txtmark/Decorator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/com/github/rjeschke/txtmark/DefaultDecorator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/com/github/rjeschke/txtmark/Emitter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/com/github/rjeschke/txtmark/HTML.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/com/github/rjeschke/txtmark/HTMLElement.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/com/github/rjeschke/txtmark/Line.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/com/github/rjeschke/txtmark/LineType.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/com/github/rjeschke/txtmark/LinkRef.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/com/github/rjeschke/txtmark/MarkToken.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/com/github/rjeschke/txtmark/Processor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/com/github/rjeschke/txtmark/Run.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/com/github/rjeschke/txtmark/SpanEmitter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/com/github/rjeschke/txtmark/Utils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/com/github/rjeschke/txtmark/test/EdgeCases.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/com/github/rjeschke/txtmark/test/EscapeSpecialCharsWithinTagAttributes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/com/github/rjeschke/txtmark/test/LineConventions.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/com/github/rjeschke/txtmark/test/MarkdownTestTester.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/com/github/rjeschke/txtmark/test/MarkupFileTester.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/com/github/rjeschke/txtmark/test/MyTxtMarkTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/com/github/rjeschke/txtmark/test/Test2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/com/github/rjeschke/txtmark/test/TestResultPair.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/dingus.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/lists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/org/markdown4j/CodeBlockEmitter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/org/markdown4j/ExtDecorator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/org/markdown4j/HtmlAttributes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/org/markdown4j/IncludePlugin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/org/markdown4j/Markdown4jProcessor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/org/markdown4j/Plugin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/org/markdown4j/TablePlugin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/org/markdown4j/WebSequencePlugin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/org/markdown4j/YumlPlugin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/paragraphs.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/markdown4j/snippets.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Main.java" afterPath="$PROJECT_DIR$/src/main/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Note.iml" afterPath="$PROJECT_DIR$/Note.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/RenderSurface.java" afterPath="$PROJECT_DIR$/src/main/RenderSurface.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -78,8 +170,18 @@
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2546973" vertical-offset="456" max-vertical-offset="935">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.43048576" vertical-offset="440" max-vertical-offset="1054">
+              <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebViewSurface.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/WebViewSurface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -88,18 +190,8 @@
       <file leaf-file-name="editor.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ui/editor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="15.571428" vertical-offset="455" max-vertical-offset="1444">
+            <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1292">
               <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/MainController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="425">
-              <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -108,8 +200,8 @@
       <file leaf-file-name="CodeEditor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestWv/src/CodeEditor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1632">
-              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="929" max-vertical-offset="1547">
+              <caret line="79" column="90" selection-start-line="79" selection-start-column="90" selection-end-line="79" selection-end-column="90" />
               <folding />
             </state>
           </provider>
@@ -148,6 +240,11 @@
         <option value="$PROJECT_DIR$/src/codemirror-4.3/mode/gfm/gfm.js" />
         <option value="$PROJECT_DIR$/src/ui/editor.html" />
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/RenderEngine.java" />
+        <option value="$PROJECT_DIR$/src/main/WebViewRenderEngine.java" />
+        <option value="$PROJECT_DIR$/src/main/RenderSurface.java" />
+        <option value="$PROJECT_DIR$/src/main/WebViewSurface.java" />
+        <option value="$PROJECT_DIR$/src/.fr-B96jn7/org/markdown4j/Markdown4jProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/Main.java" />
       </list>
     </option>
@@ -317,7 +414,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -344,6 +441,10 @@
               <option name="myItemId" value="Note" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -353,6 +454,20 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Note" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Note" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Note" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="markdown4j-2.2.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -419,6 +534,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Note" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -435,7 +556,7 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="commit&#9;ACTION&#9;CheckinProject&#10;refac&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;push&#9;ACTION&#9;Git.Push&#10;line&#9;ACTION&#9;EditorToggleShowLineNumbers&#10;commi&#9;ACTION&#9;CheckinProject&#10;build art&#9;ACTION&#9;BuildArtifact&#10;arti&#9;ACTION&#9;BuildArtifact&#10;full screen&#9;ACTION&#9;ToggleFullScreen&#10;new&#9;ACTION&#9;NewGroup&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;github&#9;null&#9;null&#10;git&#9;ACTION&#9;Git.Init&#10;task mana&#9;null&#9;null&#10;tas&#9;PSI&#9;JAVA://javax.swing.plaf.synth.SynthDesktopPaneUI.TaskBar&#10;task&#9;null&#9;null&#10;fullsc&#9;PSI&#9;JAVA://com.sun.corba.se.impl.protocol.FullServantCacheLocalCRDImpl&#10;annotation&#9;null&#9;null&#10;maven&#9;ACTION&#9;ActivateMavenProjectsToolWindow&#10;plugin&#9;ACTION&#9;WelcomeScreen.Plugins&#10;plugi&#9;ACTION&#9;WelcomeScreen.Plugins&#10;&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/sample/Main.java&#10;run&#9;ACTION&#9;ActivateRunToolWindow&#10;buil&#9;ACTION&#9;BuildMenu&#10;full scree&#9;ACTION&#9;ToggleFullScreen&#10;console&#9;null&#9;null&#10;delete&#9;ACTION&#9;ChangesView.DeleteUnversioned.From.Dialog&#10;ref&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;refa&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;import&#9;null&#9;null&#10;main&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/sample/Main.java" />
+    <property name="SearchEverywhereHistoryKey" value="commit&#9;ACTION&#9;CheckinProject&#10;ommit&#9;ACTION&#9;Vcs.CheckCommitMessageSpelling&#10;build&#9;ACTION&#9;BuildMenu&#10;genera&#9;ACTION&#9;Generate&#10;generate&#9;ACTION&#9;Generate&#10;render&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/main/RenderSurface.java&#10;new&#9;ACTION&#9;NewGroup&#10;we&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/main/WebViewRenderEngine.java&#10;refac&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;push&#9;ACTION&#9;Git.Push&#10;line&#9;ACTION&#9;EditorToggleShowLineNumbers&#10;commi&#9;ACTION&#9;CheckinProject&#10;build art&#9;ACTION&#9;BuildArtifact&#10;arti&#9;ACTION&#9;BuildArtifact&#10;full screen&#9;ACTION&#9;ToggleFullScreen&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;github&#9;null&#9;null&#10;git&#9;ACTION&#9;Git.Init&#10;task mana&#9;null&#9;null&#10;tas&#9;PSI&#9;JAVA://javax.swing.plaf.synth.SynthDesktopPaneUI.TaskBar&#10;task&#9;null&#9;null&#10;fullsc&#9;PSI&#9;JAVA://com.sun.corba.se.impl.protocol.FullServantCacheLocalCRDImpl&#10;annotation&#9;null&#9;null&#10;maven&#9;ACTION&#9;ActivateMavenProjectsToolWindow&#10;plugin&#9;ACTION&#9;WelcomeScreen.Plugins&#10;plugi&#9;ACTION&#9;WelcomeScreen.Plugins&#10;&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/sample/Main.java&#10;run&#9;ACTION&#9;ActivateRunToolWindow&#10;buil&#9;ACTION&#9;BuildMenu&#10;full scree&#9;ACTION&#9;ToggleFullScreen&#10;console&#9;null&#9;null&#10;delete&#9;ACTION&#9;ChangesView.DeleteUnversioned.From.Dialog&#10;ref&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;refa&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;import&#9;null&#9;null&#10;main&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/sample/Main.java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../MavenNoter" />
     <property name="FullScreen" value="false" />
     <property name="options.lastSelected" value="settings.github" />
@@ -444,17 +565,15 @@
     <property name="options.searchVisible" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="sample" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/ui" />
       <recent name="$PROJECT_DIR$/TestWv/src" />
       <recent name="$PROJECT_DIR$/src/sample" />
@@ -462,8 +581,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/ui" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="sample" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.webeditor">
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -690,7 +812,11 @@
       <created>1405219721624</created>
       <updated>1405219721624</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="changed sample package to main package&#10;">
+      <created>1405219892448</created>
+      <updated>1405219892448</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -718,20 +844,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1368" height="769" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31730768" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48557693" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31798562" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31730768" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15256798" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18910256" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18910256" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20192307" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3534884" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15861027" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1971299" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -741,6 +866,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48557693" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39903846" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -798,8 +924,8 @@
     <MESSAGE value="added javascript mtd listProp(obejct o) to inspect object&#10;" />
     <MESSAGE value="minor changes&#10;" />
     <MESSAGE value="added markdown4j lib&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="added markdown4j lib&#10;" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="changed sample package to main package&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed sample package to main package&#10;" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -815,24 +941,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TestWv/src/CodeEditor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1632">
-          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ObjectNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="476">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1068" max-vertical-offset="1547">
+          <caret line="79" column="90" selection-start-line="79" selection-start-column="90" selection-end-line="79" selection-end-column="90" />
           <folding />
         </state>
       </provider>
@@ -841,7 +951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1598">
           <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -849,7 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="425">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -857,7 +965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1411">
           <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -873,7 +980,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="476">
           <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -881,7 +987,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1598">
           <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -889,7 +994,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -897,7 +1001,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
           <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -913,7 +1016,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1598">
           <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -921,7 +1023,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="73" max-vertical-offset="527">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -929,7 +1030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="218" max-vertical-offset="1411">
           <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -945,7 +1045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1598">
           <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -953,7 +1052,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="493">
           <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -961,7 +1059,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="218" max-vertical-offset="1411">
           <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -977,7 +1074,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="2146">
           <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1000,7 +1096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1258">
           <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1075,7 +1170,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27803737" vertical-offset="0" max-vertical-offset="850">
           <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1083,7 +1177,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1150627" vertical-offset="2187" max-vertical-offset="8211">
           <caret line="191" column="9" selection-start-line="191" selection-start-column="9" selection-end-line="191" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1091,7 +1184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
           <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1099,7 +1191,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48353294" vertical-offset="0" max-vertical-offset="1598">
           <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1107,28 +1198,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30538923" vertical-offset="0" max-vertical-offset="1173">
           <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/RenderEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13772455" vertical-offset="16" max-vertical-offset="684">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/RenderSurface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0508982" vertical-offset="0" max-vertical-offset="668">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestWv/src/CodeEditorExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -1141,27 +1210,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestWv/src/CodeEditor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1222" max-vertical-offset="2112">
-          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/note_main.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10559006" vertical-offset="51" max-vertical-offset="782">
           <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
-          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1169,7 +1221,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="22321">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1177,7 +1228,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="2176">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1185,7 +1235,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.33774835" vertical-offset="153" max-vertical-offset="850">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1193,22 +1242,74 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40772533" vertical-offset="847" max-vertical-offset="1411">
           <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2562814" vertical-offset="0" max-vertical-offset="597">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/editor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="15.571428" vertical-offset="455" max-vertical-offset="1406">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1292">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/RenderSurface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.80067" vertical-offset="185" max-vertical-offset="867">
+          <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="597">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestWv/src/CodeEditorExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1156">
+          <caret line="62" column="61" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestWv/src/CodeEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="929" max-vertical-offset="1547">
+          <caret line="79" column="90" selection-start-line="79" selection-start-column="90" selection-end-line="79" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/WebViewSurface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="960">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/RenderEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14572865" vertical-offset="117" max-vertical-offset="714">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2546973" vertical-offset="456" max-vertical-offset="935">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.43048576" vertical-offset="440" max-vertical-offset="1054">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
           <folding />
         </state>
       </provider>
