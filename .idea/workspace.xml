@@ -6,380 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="test commit from idea">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ui/firebug.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ui/firebug_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/doc/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/3024-day.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/3024-night.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/AUTHORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestWv/src/CodeEditor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestWv/src/CodeEditorExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Note.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestWv/TestWv.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/test/lint/acorn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/selection/active-line.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/doc/activebookmark.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/activeline.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/ambiance-mobile.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/ambiance.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/hint/anyword-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/anywordhint.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/apl/apl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/asterisk/asterisk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/bin/authors.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/base16-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/base16-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/bidi.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/blackboard.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/fold/brace-fold.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/btree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/buffers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/changemode.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/clike/clike.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/clojure/clojure.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/closebrackets.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/edit/closebrackets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/closetag.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/edit/closetag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/cobalt.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/cobol/cobol.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/lib/codemirror.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/lib/codemirror.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/lint/coffeescript-lint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/coffeescript/coffeescript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/runmode/colorize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/fold/comment-fold.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/comment/comment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/test/comment_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/commonlisp/commonlisp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/complete.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/doc/compress.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/bin/compress" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/comment/continuecomment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/edit/continuelist.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/hint/css-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/lint/css-lint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/css/css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/cypher/cypher.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/d/d.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/dialog/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/dialog/dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/diff/diff.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/django/django.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/test/doc_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/doc/docs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/test/driver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/dtd/dtd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/dylan/dylan.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/ecl/ecl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/eclipse.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ui/editor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/eiffel/eiffel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/elegant.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/emacs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/keymap/emacs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/test/emacs_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/erlang-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/erlang/erlang.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ui/firebug-lite-compressed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ui/firebug-lite.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/fold/foldcode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/fold/foldgutter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/fold/foldgutter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/folding.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/fortran/fortran.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/display/fullscreen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/fullscreen.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/display/fullscreen.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/gas/gas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/gfm/gfm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/gherkin/gherkin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/go/go.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/groovy/groovy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/haml/haml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/hardwrap.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/wrap/hardwrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/haskell/haskell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/haxe/haxe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/hint/html-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/html5complete.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/htmlembedded/htmlembedded.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/htmlmixed/htmlmixed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/http/http.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/fold/indent-fold.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/indentwrap.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/apl/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/asterisk/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/clike/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/clojure/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/cobol/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/coffeescript/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/commonlisp/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/css/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/cypher/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/d/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/diff/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/django/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/dtd/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/dylan/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/ecl/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/eiffel/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/erlang/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/fortran/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/gas/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/gfm/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/gherkin/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/go/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/groovy/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/haml/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/haskell/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/haxe/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/htmlembedded/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/htmlmixed/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/http/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/jade/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/javascript/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/jinja2/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/julia/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/livescript/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/lua/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/markdown/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/mirc/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/mllike/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/nginx/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/ntriples/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/octave/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/pascal/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/pegjs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/perl/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/php/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/pig/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/properties/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/puppet/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/python/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/q/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/r/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/rpm/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/rpm/changes/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/rst/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/ruby/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/rust/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/sass/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/scheme/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/shell/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/sieve/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/smalltalk/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/smarty/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/smartymixed/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/solr/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/sparql/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/sql/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/stex/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/tcl/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/tiddlywiki/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/tiki/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/toml/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/turtle/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/vb/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/vbscript/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/velocity/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/verilog/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/xml/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/xquery/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/yaml/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/z80/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/test/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/doc/internals.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/jade/jade.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/hint/javascript-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/lint/javascript-lint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/javascript/javascript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/jinja2/jinja2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/javascript/json-ld.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/lint/json-lint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/julia/julia.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/css/less.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/css/less_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/lesser-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/lint/lint.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/lint.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/lint/lint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/test/lint/lint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/bin/lint" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/livescript/livescript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/loadmode.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/mode/loadmode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/doc/logo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/lua/lua.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/doc/manual.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/selection/mark-selection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/fold/markdown-fold.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/markdown/markdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/marker.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/markselection.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/search/match-highlighter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/edit/matchbrackets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/matchhighlighter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/matchtags.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/edit/matchtags.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/mbo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/mdn-like.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/merge/merge.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/merge.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/merge/merge.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/meta.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/midnight.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/mirc/mirc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/mllike/mllike.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/test/mode_test.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/test/mode_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/monokai.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/test/multi_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/multiplex.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/mode/multiplex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/mode/multiplex_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/mustache.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/neat.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/neo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/nginx/nginx.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/night.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/ntriples/ntriples.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/octave/octave.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/mode/overlay.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/paraiso-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/paraiso-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/pascal/pascal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/pastel-on-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/pegjs/pegjs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/perl/perl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/test/phantom_driver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/php/php.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/pig/pig.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/placeholder.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/display/placeholder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/preview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/properties/properties.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/puppet/puppet.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/hint/python-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/python/python.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/q/q.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/r/r.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/doc/realworld.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/bin/release" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/doc/releases.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/doc/reporting.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/resize.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/rpm/rpm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/rst/rst.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/ruby/ruby.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/rubyblue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/rulers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/display/rulers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/test/run.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/runmode/runmode-standalone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/runmode.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/runmode/runmode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/runmode/runmode.node.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/rust/rust.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/sass/sass.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/clike/scala.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/scheme/scheme.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/scroll/scrollpastend.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/css/scss.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/css/scss_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/search.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/search/search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/test/search_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/search/searchcursor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/shell/shell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/hint/show-hint.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/hint/show-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/sieve/sieve.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/smalltalk/smalltalk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/smarty/smarty.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/smartymixed/smartymixed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/solarized.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/solr/solr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/bin/source-highlight" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/spanaffectswrapping_shim.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/sparql/sparql.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/hint/sql-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/sql/sql.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/stex/stex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/sublime.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/keymap/sublime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/test/sublime_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/tcl/tcl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/tern/tern.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/tern.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/tern/tern.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/css/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/gfm/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/haml/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/javascript/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/markdown/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/php/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/ruby/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/shell/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/stex/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/verilog/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/xml/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/xquery/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/test/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/the-matrix.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/theme.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/tiddlywiki/tiddlywiki.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/tiddlywiki/tiddlywiki.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/tiki/tiki.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/tiki/tiki.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/toml/toml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/tomorrow-night-eighties.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/trailingspace.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/edit/trailingspace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/turtle/turtle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/twilight.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/javascript/typescript.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/doc/upgrade_v2.2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/doc/upgrade_v3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/doc/upgrade_v4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/variableheight.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/vb/vb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/vbscript/vbscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/velocity/velocity.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/verilog/verilog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/vibrant-ink.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/vim.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/keymap/vim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/test/vim_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/visibletabs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/test/lint/walk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/widget.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/tern/worker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/fold/xml-fold.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/hint/xml-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/xml/xml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/demo/xmlcomplete.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/xq-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/theme/xq-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/xquery/xquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/addon/lint/yaml-lint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/yaml/yaml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/codemirror-4.3/mode/z80/z80.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/JavaFXApp.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/JavaFXApp.xml" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="minimized firebug on default">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ui/customTools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ui/editorOld.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Main.java" afterPath="$PROJECT_DIR$/src/sample/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ui/note_main.fxml" afterPath="$PROJECT_DIR$/src/ui/note_main.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ui/editor.html" afterPath="$PROJECT_DIR$/src/ui/editor.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -398,6 +29,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties converted="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -433,7 +65,6 @@
       </breakpoint>
     </breakpoint_any>
     <breakpoint_rules converted="true" />
-    <ui_properties converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -444,12 +75,9 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.518518" vertical-offset="454" max-vertical-offset="1045">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-              <folding>
-                <element signature="e#832#833#0" expanded="true" />
-                <element signature="e#860#861#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1139">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -457,8 +85,18 @@
       <file leaf-file-name="editor.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ui/editor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48134327" vertical-offset="7" max-vertical-offset="578">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.7311828" vertical-offset="192" max-vertical-offset="855">
+              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editorOld.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ui/editorOld.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="850">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -477,12 +115,9 @@
       <file leaf-file-name="MainController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
+            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="425">
               <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-              <folding>
-                <element signature="e#224#466#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -490,7 +125,7 @@
       <file leaf-file-name="CodeEditor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestWv/src/CodeEditor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1222" max-vertical-offset="2112">
+            <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1632">
               <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
               <folding />
             </state>
@@ -587,9 +222,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="width" value="1368" />
-    <option name="height" value="769" />
+    <option name="x" value="683" />
+    <option name="width" value="683" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -716,6 +351,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -823,7 +459,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -837,7 +472,7 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="commit&#9;ACTION&#9;ChangesView.Commit&#10;refac&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;line&#9;ACTION&#9;EditorToggleShowLineNumbers&#10;build art&#9;ACTION&#9;BuildArtifact&#10;arti&#9;ACTION&#9;BuildArtifact&#10;full screen&#9;ACTION&#9;ToggleFullScreen&#10;new&#9;ACTION&#9;NewGroup&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;github&#9;null&#9;null&#10;git&#9;ACTION&#9;Git.Init&#10;task mana&#9;null&#9;null&#10;tas&#9;PSI&#9;JAVA://javax.swing.plaf.synth.SynthDesktopPaneUI.TaskBar&#10;task&#9;null&#9;null&#10;fullsc&#9;PSI&#9;JAVA://com.sun.corba.se.impl.protocol.FullServantCacheLocalCRDImpl&#10;annotation&#9;null&#9;null&#10;maven&#9;ACTION&#9;ActivateMavenProjectsToolWindow&#10;plugin&#9;ACTION&#9;WelcomeScreen.Plugins&#10;plugi&#9;ACTION&#9;WelcomeScreen.Plugins&#10;&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/sample/Main.java&#10;run&#9;ACTION&#9;ActivateRunToolWindow&#10;buil&#9;ACTION&#9;BuildMenu&#10;full scree&#9;ACTION&#9;ToggleFullScreen&#10;console&#9;null&#9;null&#10;delete&#9;ACTION&#9;ChangesView.DeleteUnversioned.From.Dialog&#10;ref&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;refa&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;import&#9;null&#9;null&#10;main&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/sample/Main.java" />
+    <property name="SearchEverywhereHistoryKey" value="commit&#9;ACTION&#9;CheckinProject&#10;refac&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;line&#9;ACTION&#9;EditorToggleShowLineNumbers&#10;build art&#9;ACTION&#9;BuildArtifact&#10;arti&#9;ACTION&#9;BuildArtifact&#10;full screen&#9;ACTION&#9;ToggleFullScreen&#10;new&#9;ACTION&#9;NewGroup&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;github&#9;null&#9;null&#10;git&#9;ACTION&#9;Git.Init&#10;task mana&#9;null&#9;null&#10;tas&#9;PSI&#9;JAVA://javax.swing.plaf.synth.SynthDesktopPaneUI.TaskBar&#10;task&#9;null&#9;null&#10;fullsc&#9;PSI&#9;JAVA://com.sun.corba.se.impl.protocol.FullServantCacheLocalCRDImpl&#10;annotation&#9;null&#9;null&#10;maven&#9;ACTION&#9;ActivateMavenProjectsToolWindow&#10;plugin&#9;ACTION&#9;WelcomeScreen.Plugins&#10;plugi&#9;ACTION&#9;WelcomeScreen.Plugins&#10;&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/sample/Main.java&#10;run&#9;ACTION&#9;ActivateRunToolWindow&#10;buil&#9;ACTION&#9;BuildMenu&#10;full scree&#9;ACTION&#9;ToggleFullScreen&#10;console&#9;null&#9;null&#10;delete&#9;ACTION&#9;ChangesView.DeleteUnversioned.From.Dialog&#10;ref&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;refa&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;import&#9;null&#9;null&#10;main&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/sample/Main.java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../MavenNoter" />
     <property name="FullScreen" value="false" />
     <property name="options.lastSelected" value="settings.github" />
@@ -857,6 +492,7 @@
       <recent name="sample" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ui" />
       <recent name="$PROJECT_DIR$/TestWv/src" />
       <recent name="$PROJECT_DIR$/src/sample" />
     </key>
@@ -865,25 +501,33 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -897,6 +541,45 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -940,53 +623,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
       <method />
     </configuration>
     <configuration default="false" name="Main" type="Application" factoryName="Application" singleton="true">
@@ -1055,13 +691,17 @@
       <created>1404966381044</created>
       <updated>1404966381044</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test commit from idea">
+      <created>1405179073192</created>
+      <updated>1405179073192</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="1302000" />
   </component>
-  <component name="TodoView" selected-index="3">
+  <component name="TodoView" selected-index="6">
     <todo-panel id="selected-file">
       <are-packages-shown value="false" />
       <are-modules-shown value="false" />
@@ -1082,61 +722,61 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1368" height="769" extended-state="6" />
+    <frame x="683" y="0" width="683" height="768" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31730768" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48557693" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31798562" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15256798" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10869565" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20192307" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3534884" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37871674" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31798562" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48557693" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40865386" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15256798" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18277946" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40865386" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39903846" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31798562" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1830161" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14728682" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3534884" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4868217" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15256798" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31798562" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15256798" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4868217" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39903846" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14728682" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3534884" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1830161" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1155,7 +795,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="test commit from idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="test commit from idea" />
+    <MESSAGE value="minimized firebug on default" />
+    <option name="LAST_COMMIT_MESSAGE" value="minimized firebug on default" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1170,14 +811,27 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/sample/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="425">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestWv/src/CodeEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="1632">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
           <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1185,7 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="476">
           <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1201,10 +854,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="425">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#224#466#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1220,10 +870,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
           <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding>
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1231,7 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="476">
           <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1247,10 +893,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#224#466#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1266,10 +909,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
           <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
-          <folding>
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1285,10 +925,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="73" max-vertical-offset="527">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#224#466#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1304,10 +941,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
           <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
-          <folding>
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1323,10 +957,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="493">
           <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding>
-            <element signature="e#224#466#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1342,10 +973,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1305">
           <caret line="49" column="102" selection-start-line="49" selection-start-column="102" selection-end-line="49" selection-end-column="102" />
-          <folding>
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1361,10 +989,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
           <caret line="17" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1387,10 +1012,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1405,10 +1027,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1423,7 +1042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32766616" vertical-offset="194" max-vertical-offset="841">
           <caret line="37" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1438,7 +1056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4509346" vertical-offset="28520" max-vertical-offset="58412">
           <caret line="1772" column="0" selection-start-line="1772" selection-start-column="0" selection-end-line="1772" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1446,7 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20481928" vertical-offset="884" max-vertical-offset="105887">
           <caret line="197" column="10" selection-start-line="197" selection-start-column="10" selection-end-line="197" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1469,7 +1085,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27803737" vertical-offset="0" max-vertical-offset="850">
           <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1477,7 +1092,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1150627" vertical-offset="2187" max-vertical-offset="8211">
           <caret line="191" column="9" selection-start-line="191" selection-start-column="9" selection-end-line="191" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1485,7 +1099,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
           <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1493,7 +1106,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.48353294" vertical-offset="0" max-vertical-offset="1598">
           <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1523,7 +1135,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
           <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1555,28 +1166,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
           <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-          <folding>
-            <element signature="e#224#466#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="22321">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.518518" vertical-offset="454" max-vertical-offset="1045">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1139">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/editorOld.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="850">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ui/editor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48134327" vertical-offset="7" max-vertical-offset="578">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.7311828" vertical-offset="192" max-vertical-offset="855">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
           <folding />
         </state>
       </provider>

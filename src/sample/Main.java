@@ -12,14 +12,16 @@ import java.util.logging.Logger;
 import static sample.AppUtils.li;
 import static sample.AppUtils.lookUp;
 //TODO find a good markdown parser
-//TODO try to display google.com in webview
-//TODO change the menu into something prettier
+//DONE try to display google.com in webview
+//DONE change the menu into something prettier
 //TODO implement a concrete RenderEngine
 //TODO implement a concrete RenderSurface
 
 //12/07/14
-//TODO lacks markdown hightlight
+
 //TODO editor does not fill the pane
+//TODO enable horizontal wraping
+//DONE firebug hide by default
 
 
 public class Main extends Application {
