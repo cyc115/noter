@@ -7,10 +7,10 @@ import javax.naming.OperationNotSupportedException;
 /**
  * Created by yuechuan on 12/07/14.
  */
-public class WebViewSurface implements RenderSurface {
+public class WebViewSurfaceInterface implements RenderSurfaceInterface {
     private WebView webView = null;
 
-    WebViewSurface() {
+    WebViewSurfaceInterface() {
     }
 
     @Override

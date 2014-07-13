@@ -10,18 +10,18 @@ public interface RenderEngine {
     /**
      * connect to a render surface to the current render Engine
      *
-     * @param renderSurface
+     * @param renderSurfaceInterface
      */
-    public void attachRenderSurface(RenderSurface renderSurface)
+    public void attachRenderSurface(RenderSurfaceInterface renderSurfaceInterface)
             throws IllegalArgumentException;
 
     /**
      * remove a render surface from the engine
      *
-     * @param renderSurface
+     * @param renderSurfaceInterface
      * @throws IllegalArgumentException
      */
-    public void detachRenderSurface(RenderSurface renderSurface)
+    public void detachRenderSurface(RenderSurfaceInterface renderSurfaceInterface)
             throws IllegalArgumentException;
 
     /**

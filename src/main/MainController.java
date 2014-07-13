@@ -1,19 +1,42 @@
-
 package main;
 
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
+import javafx.application.Application;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.MenuItem;
 
-import static main.AppUtils.li;
+public class MainController implements ControllerCommonInterface {
 
-public class MainController {
+    @FXML
+    private MenuItem renderBtn;
+    private MainApplication application;
+    private RenderSurfaceInterface displaySurface;
+    private EditorInterface editor;
 
+    @FXML
+    void initialize() {
+        System.out.println("enter init()");
+        assert renderBtn != null : "fx:id=\"renderBtn\" was not injected: check your FXML file 'note_main.fxml'.";
+        System.out.println("end init()");
+    }
 
+    public void renderBtnAction(ActionEvent ae) {
+        displaySurface.display(editor.getContent().getEditorText());
+    }
 
-    public static ChangeListener textAreaKeyTyped = new ChangeListener<String>() {
-        public void changed(final ObservableValue<? extends String> observableValue, final String oldValue,
-                            final String newValue) {
-            li(this,"keypressed");
-        }
-    };
+    @Override
+    public void setControllerParentApplication(Application application) {
+        assert application != null : "argument cannot be null";
+        assert application instanceof MainApplication : "given app is not an instance of MainApplication";
+        this.application = (MainApplication) application;
+    }
+
+    @Override
+    public void postInit() {
+        displaySurface = application.getDisplaySurface();
+        editor = application.getEditor();
+
+        assert displaySurface != null : "displaySUreface is null when initializing ";
+        assert editor != null : "editor is null when initializing ";
+    }
 }
