@@ -25,10 +25,12 @@ import static main.AppUtils.lookUp;
 //DONE firebug hide by default
 
 
-public class MainApplication extends Application {
+public class MainApplication extends Application implements ApplicationInterface {
     private EditorInterface editor;
-    private RenderSurfaceInterface displaySurface;
+    private RenderSurface displaySurface;
+    private RenderEngine engine;
     private ControllerCommonInterface mainController;
+
 
     //stuff on the page
     private MenuItem mItemRender;
@@ -59,11 +61,16 @@ public class MainApplication extends Application {
 
         initEditor(root);
         initDisplay(root);
-        //initMenu(root);
-        //System.out.println(editor.getContent().getEditorText());
+        initEngine();
 
         onPostInit();
         System.out.println("end Start()");
+    }
+
+    private void initEngine() {
+        engine = new MarkDown4JRenderEnigne();
+        engine.attachRenderSurface(displaySurface);
+        engine.attachApplication(this);
     }
 
     /**
@@ -77,13 +84,12 @@ public class MainApplication extends Application {
         WebView display = lookUp(root, "#webdisplay", WebView.class);
         display.getEngine().load("https://google.com");
         try {
-            displaySurface = new WebViewSurfaceInterface();
+            displaySurface = new WebViewSurface();
             displaySurface.setSurface(display);
         } catch (OperationNotSupportedException onse) {
             onse.printStackTrace();
         }
         displaySurface.display("HelloWorldText");
-
     }
 
     private void initEditor(Parent root) throws ObjectNotFoundException {
@@ -103,11 +109,15 @@ public class MainApplication extends Application {
         return editor;
     }
 
-    public RenderSurfaceInterface getDisplaySurface() {
+    public RenderSurface getDisplaySurface() {
         return displaySurface;
     }
 
     public ControllerCommonInterface getMainController() {
         return mainController;
+    }
+
+    public RenderEngine getEngine() {
+        return engine;
     }
 }

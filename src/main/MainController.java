@@ -9,8 +9,7 @@ public class MainController implements ControllerCommonInterface {
 
     @FXML
     private MenuItem renderBtn;
-    private MainApplication application;
-    private RenderSurfaceInterface displaySurface;
+    private ApplicationInterface application;
     private EditorInterface editor;
 
     @FXML
@@ -21,7 +20,7 @@ public class MainController implements ControllerCommonInterface {
     }
 
     public void renderBtnAction(ActionEvent ae) {
-        displaySurface.display(editor.getContent().getEditorText());
+        application.getEngine().render(editor.getContent().getEditorText());
     }
 
     @Override
@@ -33,10 +32,7 @@ public class MainController implements ControllerCommonInterface {
 
     @Override
     public void postInit() {
-        displaySurface = application.getDisplaySurface();
         editor = application.getEditor();
-
-        assert displaySurface != null : "displaySUreface is null when initializing ";
         assert editor != null : "editor is null when initializing ";
     }
 }

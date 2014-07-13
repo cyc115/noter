@@ -31,7 +31,7 @@ public interface EditorInterface {
     Object getEditor() throws UnsupportedOperationException;
 
     /**
-     * setter for the editor: refer to @getEditor.
+     * setter for the editor: refer to getEditor.
      *
      * @param editor
      * @throws UnsupportedOperationException

@@ -7,30 +7,35 @@ package main;
  * Created by yuechuan on 09/07/14.
  */
 public interface RenderEngine {
+
     /**
      * connect to a render surface to the current render Engine
      *
-     * @param renderSurfaceInterface
+     * @param renderSurface
      */
-    public void attachRenderSurface(RenderSurfaceInterface renderSurfaceInterface)
+    public void attachRenderSurface(RenderSurface renderSurface)
             throws IllegalArgumentException;
 
     /**
      * remove a render surface from the engine
      *
-     * @param renderSurfaceInterface
+     * @param renderSurface
      * @throws IllegalArgumentException
      */
-    public void detachRenderSurface(RenderSurfaceInterface renderSurfaceInterface)
+    public void detachRenderSurface(RenderSurface renderSurface)
             throws IllegalArgumentException;
 
     /**
      * The rendering engine will take in the raw text(may be markdown)
      * render it in html (or other format) and pass it to the attached
-     * RenderSurface
+     * RenderSurface.
+     * <p>
+     * raw text --> html --> output to rendersurface
      *
      * @throws IllegalStateException
      */
     public void render(String raw) throws IllegalStateException;
+
+    public void attachApplication(ApplicationInterface app);
 
 }

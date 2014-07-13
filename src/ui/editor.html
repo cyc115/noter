@@ -23,7 +23,15 @@
 <body>
 <form>
     <textarea id="code" name="code">
-        Hello world
+        this is a header
+        ===
+        > this is a block
+
+        ```
+        this is a code block
+        ```
+
+        this is normal text
     </textarea>
 </form>
 <script>
@@ -38,6 +46,7 @@
         cm.showHint({hint: CodeMirror.hint.anyword});
     }
 
+
 </script>
 <!--used for debugging purpose: call this method to inspect object -->
 <script>
@@ -50,6 +59,7 @@
     }
     return result;
 }
+
 
 
 </script>

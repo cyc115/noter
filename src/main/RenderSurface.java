@@ -11,7 +11,7 @@ import javax.naming.OperationNotSupportedException;
  * also handle things like pdf export.
  * Created by yuechuan on 10/07/14.
  */
-public interface RenderSurfaceInterface {
+public interface RenderSurface {
     /**
      * displays the rendered text
      *
