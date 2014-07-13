@@ -3,7 +3,7 @@ package main;
 /**
  * Created by yuechuan on 12/07/14.
  */
-public interface EditorInterface {
+public interface Editor {
     /**
      * Obtains a reference to the Editor's content object
      *
@@ -18,7 +18,7 @@ public interface EditorInterface {
      * @return content
      * @throws UnsupportedOperationException
      */
-    EditorInterface setContent(ContentObject content) throws UnsupportedOperationException;
+    Editor setContent(ContentObject content) throws UnsupportedOperationException;
 
     /**
      * obtain a reference of the underlying editor object. in the case of

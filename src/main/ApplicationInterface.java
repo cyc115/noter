@@ -5,7 +5,7 @@ package main;
  */
 public interface ApplicationInterface {
 
-    EditorInterface getEditor();
+    Editor getEditor();
 
     RenderSurface getDisplaySurface();
 

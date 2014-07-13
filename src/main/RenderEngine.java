@@ -38,4 +38,17 @@ public interface RenderEngine {
 
     public void attachApplication(ApplicationInterface app);
 
+    /**
+     * RenderEngine that can attach an Editor and render
+     * directly from Editor to Render surface by calling
+     * render()
+     */
+    public interface IORenderEngin extends RenderEngine {
+
+        void attachInputSource(Editor editor);
+
+        void render();
+
+
+    }
 }

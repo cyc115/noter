@@ -3,17 +3,19 @@ package main;
 import org.markdown4j.Markdown4jProcessor;
 
 import java.io.IOException;
-import java.util.*;
+import java.util.LinkedList;
+import java.util.List;
 
 /**
  * Created by yuechuan on 13/07/14.
  */
-public class MarkDown4JRenderEnigne implements RenderEngine {
+public class MarkDown4JRenderEnigne implements RenderEngine.IORenderEngin {
     /**
      * hosts a list of rendering surfaces
      */
     List<RenderSurface> surfaceLst;
     ApplicationInterface app;
+    Editor editor;
 
     {
         engine = new Markdown4jProcessor();
@@ -56,5 +58,16 @@ public class MarkDown4JRenderEnigne implements RenderEngine {
     public void attachApplication(ApplicationInterface app) {
         assert app != null : "cannot attach null as application";
         this.app = app;
+    }
+
+    @Override
+    public void attachInputSource(Editor editor) {
+        this.editor = editor;
+    }
+
+    @Override
+    public void render() {
+        assert editor != null : "editor is not defined ! use render(String raw) instead";
+        render(editor.getContent().getEditorText());
     }
 }

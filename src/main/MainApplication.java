@@ -12,11 +12,11 @@ import javax.naming.OperationNotSupportedException;
 
 
 import static main.AppUtils.lookUp;
-//TODO find a good markdown parser
+//DONE find a good markdown parser
 //DONE try to display google.com in webview
 //DONE change the menu into something prettier
-//TODO implement a concrete RenderEngine
-//TODO implement a concrete RenderSurface
+//DONE implement a concrete RenderEngine
+//DONE implement a concrete RenderSurface
 
 //12/07/14
 
@@ -26,9 +26,9 @@ import static main.AppUtils.lookUp;
 
 
 public class MainApplication extends Application implements ApplicationInterface {
-    private EditorInterface editor;
+    private Editor editor;
     private RenderSurface displaySurface;
-    private RenderEngine engine;
+    private RenderEngine.IORenderEngin engine;
     private ControllerCommonInterface mainController;
 
 
@@ -70,6 +70,7 @@ public class MainApplication extends Application implements ApplicationInterface
     private void initEngine() {
         engine = new MarkDown4JRenderEnigne();
         engine.attachRenderSurface(displaySurface);
+        engine.attachInputSource(editor);
         engine.attachApplication(this);
     }
 
@@ -105,7 +106,7 @@ public class MainApplication extends Application implements ApplicationInterface
         }
     }
 
-    public EditorInterface getEditor() {
+    public Editor getEditor() {
         return editor;
     }
 

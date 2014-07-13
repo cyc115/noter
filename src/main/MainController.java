@@ -10,7 +10,7 @@ public class MainController implements ControllerCommonInterface {
     @FXML
     private MenuItem renderBtn;
     private ApplicationInterface application;
-    private EditorInterface editor;
+    private Editor editor;
 
     @FXML
     void initialize() {
@@ -20,7 +20,8 @@ public class MainController implements ControllerCommonInterface {
     }
 
     public void renderBtnAction(ActionEvent ae) {
-        application.getEngine().render(editor.getContent().getEditorText());
+        //case the engin to IORenderEngin to render on render() call
+        ((RenderEngine.IORenderEngin) application.getEngine()).render();
     }
 
     @Override

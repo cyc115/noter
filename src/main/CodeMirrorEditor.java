@@ -5,7 +5,7 @@ import javafx.scene.web.WebView;
 /**
  * Created by yuechuan on 12/07/14.
  */
-public class CodeMirrorEditor implements EditorInterface {
+public class CodeMirrorEditor implements Editor {
     private WebView editorView = null;
     private ContentObject content;
 
@@ -14,7 +14,7 @@ public class CodeMirrorEditor implements EditorInterface {
     }
 
     @Override
-    public EditorInterface setContent(ContentObject content)
+    public Editor setContent(ContentObject content)
             throws UnsupportedOperationException {
         throw new UnsupportedOperationException(
                 "CodeMirrotrEditor's content canno" +
