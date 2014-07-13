@@ -39,6 +39,19 @@
         cm.showHint({hint: CodeMirror.hint.anyword});
     }
 </script>
+<!--used for debugging purpose: call this method to inspect object -->
+<script>
+    function listProp(o) {
+    var objectToInspect;
+    var result = [];
+
+    for (objectToInspect = o; objectToInspect !== null; objectToInspect = Object.getPrototypeOf(objectToInspect)) {
+        result = result.concat(Object.getOwnPropertyNames(objectToInspect));
+    }
+    return result;
+}
+
+</script>
 
 <!-- dynamically fit editor to code-->
 <style type="text/css">
