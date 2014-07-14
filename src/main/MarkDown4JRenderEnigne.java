@@ -67,7 +67,10 @@ public class MarkDown4JRenderEnigne implements RenderEngine.IORenderEngin {
 
     @Override
     public void render() {
+        long t = System.currentTimeMillis();
         assert editor != null : "editor is not defined ! use render(String raw) instead";
         render(editor.getContent().getEditorText());
+        System.out.println("time of render: " + Long.toString(System.currentTimeMillis() - t));
+
     }
 }

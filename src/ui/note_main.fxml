@@ -13,7 +13,7 @@
     <center>
         <SplitPane dividerPositions="0.5" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
             <items>
-                <WebView fx:id="editor" prefHeight="200" prefWidth="200"/>
+                <WebView fx:id="editor" fontScale="1.2" prefHeight="200" prefWidth="200"/>
                 <WebView fx:id="webdisplay" prefHeight="200.0" prefWidth="200.0"/>
             </items>
         </SplitPane>

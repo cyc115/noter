@@ -18,6 +18,9 @@
     <script src="../codemirror-4.3/mode/clike/clike.js"></script>
     <script src="../codemirror-4.3/mode/css/css.js"></script>
     <script src="../codemirror-4.3/mode/htmlmixed/htmlmixed.js"></script>
+
+    <!--emacs -->
+    <script src="../codemirror-4.3/keymap/emacs.js"></script>
 </head>
 
 <body>
@@ -39,7 +42,8 @@
         lineNumbers: true,
         matchBrackets: true,
         mode: "text/x-markdown",
-        extraKeys: {"Ctrl-Space": "autocomplete"}
+        extraKeys: {"Ctrl-Space": "autocomplete"},
+        keyMap: "emacs"
     });
 
     CodeMirror.commands.autocomplete = function(cm) {
@@ -58,7 +62,9 @@
         result = result.concat(Object.getOwnPropertyNames(objectToInspect));
     }
     return result;
+
 }
+
 
 
 

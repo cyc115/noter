@@ -351,8 +351,8 @@
     "Shift-Alt-,": "goDocStart", "Shift-Alt-.": "goDocEnd",
     "Ctrl-S": "findNext", "Ctrl-R": "findPrev", "Ctrl-G": quit, "Shift-Alt-5": "replace",
     "Alt-/": "autocomplete",
-    "Ctrl-J": "newlineAndIndent", "Enter": false, "Tab": "indentAuto",
-
+    "Ctrl-J": "newlineAndIndent", "Enter": false, "Tab": "defaultTab","Shift-Tab": "indentAuto" ,
+	
     "Alt-G": function(cm) {cm.setOption("keyMap", "emacs-Alt-G");},
     "Ctrl-X": function(cm) {cm.setOption("keyMap", "emacs-Ctrl-X");},
     "Ctrl-Q": function(cm) {cm.setOption("keyMap", "emacs-Ctrl-Q");},
