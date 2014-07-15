@@ -42,6 +42,13 @@ public interface RenderEngine {
     public void attachApplication(ApplicationInterface app);
 
     /**
+     * return the rendered String instead of rendering it to the surface
+     * @param raw
+     * @return
+     */
+    public String render(String raw);
+
+    /**
      * RenderEngine that can attach an Editor and renderToSurface
      * directly from Editor to Render surface by calling
      * renderToSurface()

@@ -48,7 +48,17 @@ public class MarkDown4JRenderEnigne implements RenderEngine.IORenderEngin {
     public String renderToSurface(String raw) throws IllegalStateException {
         assert surfaceLst != null : "did you forget to attach surface to Engine? call attachRenderSurface()";
         assert raw != null : "raw is null ";
-        String rendered = "no text";
+        String rendered = null;
+        rendered = render(raw);
+        for (RenderSurface rs : surfaceLst) {
+            rs.display(rendered);
+        }
+        return rendered;
+    }
+
+    @Override
+    public String render(String raw) {
+        String rendered = null;
         try {
             rendered = engine.process(raw);
         } catch (IOException ioe) {
@@ -62,9 +72,6 @@ public class MarkDown4JRenderEnigne implements RenderEngine.IORenderEngin {
         sb.append("</article>");
 
         rendered = sb.toString();
-        for (RenderSurface rs : surfaceLst) {
-            rs.display(rendered);
-        }
         return rendered;
     }
 
