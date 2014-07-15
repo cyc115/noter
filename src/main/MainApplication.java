@@ -1,6 +1,7 @@
 package main;
 
 import javafx.application.Application;
+import javafx.application.Platform;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -9,7 +10,8 @@ import javafx.scene.web.WebView;
 import javafx.stage.Stage;
 
 import javax.naming.OperationNotSupportedException;
-
+import java.util.Timer;
+import java.util.TimerTask;
 
 import static main.AppUtils.lookUp;
 //DONE find a good markdown parser
@@ -26,12 +28,11 @@ import static main.AppUtils.lookUp;
 
 
 public class MainApplication extends Application implements ApplicationInterface {
+    public double RENDER_DELAY = 1.0; //5 second delay
     private Editor editor;
     private RenderSurface displaySurface;
     private RenderEngine.IORenderEngin engine;
     private ControllerCommonInterface mainController;
-
-
     //stuff on the page
     private MenuItem mItemRender;
 
@@ -62,9 +63,21 @@ public class MainApplication extends Application implements ApplicationInterface
         initEditor(root);
         initDisplay(root);
         initEngine();
+        startRealTimeRendering();
 
-        onPostInit();
         System.out.println("end Start()");
+    }
+
+    private void startRealTimeRendering() {
+        Timer timer = new Timer();
+
+        timer.scheduleAtFixedRate(new TimerTask() {
+
+            @Override
+            public void run() {
+                Platform.runLater(() -> engine.renderToSurface());
+            }
+        }, 500, (int) (1000 * RENDER_DELAY));
     }
 
     private void initEngine() {

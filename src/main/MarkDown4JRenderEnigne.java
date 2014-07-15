@@ -39,19 +39,27 @@ public class MarkDown4JRenderEnigne implements RenderEngine.IORenderEngin {
     }
 
     @Override
-    public void render(String raw) throws IllegalStateException {
-        assert surfaceLst != null : "did you forget to attach surface to Engine? call attachRenderSurface()";
+    public Editor[] obtainInputSource() {
+        Editor[] e = {editor};
+        return e;
+    }
 
+    @Override
+    public String renderToSurface(String raw) throws IllegalStateException {
+        assert surfaceLst != null : "did you forget to attach surface to Engine? call attachRenderSurface()";
+        assert raw != null : "raw is null ";
         String rendered = "no text";
         try {
             rendered = engine.process(raw);
         } catch (IOException ioe) {
             ioe.printStackTrace();
         }
-
-        for (RenderSurface rs : surfaceLst) {
-            rs.display(rendered);
+        if (rendered != null) {
+            for (RenderSurface rs : surfaceLst) {
+                rs.display(rendered);
+            }
         }
+        return rendered;
     }
 
     @Override
@@ -66,11 +74,13 @@ public class MarkDown4JRenderEnigne implements RenderEngine.IORenderEngin {
     }
 
     @Override
-    public void render() {
+    public String renderToSurface() {
         long t = System.currentTimeMillis();
         assert editor != null : "editor is not defined ! use render(String raw) instead";
-        render(editor.getContent().getEditorText());
+        String editorText = editor.getContent().getContentText();
+        String rendered = renderToSurface(editorText);
         System.out.println("time of render: " + Long.toString(System.currentTimeMillis() - t));
 
+        return rendered;
     }
 }

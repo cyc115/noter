@@ -25,7 +25,7 @@
 
 <body>
 <form>
-    <textarea id="code" name="code">
+    <textarea id="code" name="code" class="fullWidth">
         this is a header
         ===
         > this is a block
@@ -43,12 +43,14 @@
         matchBrackets: true,
         mode: "text/x-markdown",
         extraKeys: {"Ctrl-Space": "autocomplete"},
-        keyMap: "emacs"
+        keyMap: "emacs",
+        lineWrapping: true,
     });
 
     CodeMirror.commands.autocomplete = function(cm) {
         cm.showHint({hint: CodeMirror.hint.anyword});
     }
+
 
 
 </script>
@@ -68,6 +70,7 @@
 
 
 
+
 </script>
 
 <!-- dynamically fit editor to code-->
@@ -80,6 +83,10 @@
     overflow-y: hidden;
     overflow-x: auto;
     }
+    .fullWidth {
+    width: 100%;
+    }
+
 </style>
 
 </body>

@@ -9,7 +9,7 @@ package main;
 public class ContentObject {
     private String editorText;
 
-    public String getEditorText() {
+    public String getContentText() {
         return editorText;
     }
 

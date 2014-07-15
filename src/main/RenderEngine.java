@@ -5,11 +5,14 @@ package main;
  * .The engines may or may not be able to export to multiple
  * rendering surface depending on individual implementations
  * Created by yuechuan on 09/07/14.
+ *
+
+ *
  */
 public interface RenderEngine {
 
     /**
-     * connect to a render surface to the current render Engine
+     * connect to a renderToSurface surface to the current renderToSurface Engine
      *
      * @param renderSurface
      */
@@ -17,7 +20,7 @@ public interface RenderEngine {
             throws IllegalArgumentException;
 
     /**
-     * remove a render surface from the engine
+     * remove a renderToSurface surface from the engine
      *
      * @param renderSurface
      * @throws IllegalArgumentException
@@ -27,28 +30,43 @@ public interface RenderEngine {
 
     /**
      * The rendering engine will take in the raw text(may be markdown)
-     * render it in html (or other format) and pass it to the attached
+     * renderToSurface it in html (or other format) and pass it to the attached
      * RenderSurface.
      * <p>
      * raw text --> html --> output to rendersurface
      *
      * @throws IllegalStateException
      */
-    public void render(String raw) throws IllegalStateException;
+    public String renderToSurface(String raw) throws IllegalStateException;
 
     public void attachApplication(ApplicationInterface app);
 
     /**
-     * RenderEngine that can attach an Editor and render
+     * RenderEngine that can attach an Editor and renderToSurface
      * directly from Editor to Render surface by calling
-     * render()
+     * renderToSurface()
+     * updated on 14/07/14 to include obtainInputSource()
+     * to allow process in the background instead of the
+     * UI thread.
+     *
      */
     public interface IORenderEngin extends RenderEngine {
 
         void attachInputSource(Editor editor);
 
-        void render();
+        /**
+         * returns the copy of the rendered text
+         *
+         * @return
+         */
+        String renderToSurface();
 
+        /**
+         * Obtain a array of attached editors
+         *
+         * @return
+         */
+        Editor[] obtainInputSource();
 
     }
 }

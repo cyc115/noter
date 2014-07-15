@@ -40,7 +40,7 @@ public class CodeMirrorEditor implements Editor {
     @Override
     public ContentObject getContent() {
         assert (editorView != null);
-        content.setContentText((String) editorView.getEngine().executeScript("editor.getValue();"));
+        content.setContentText((String) (editorView.getEngine().executeScript("editor.getValue();")));
         return content;
     }
 }
