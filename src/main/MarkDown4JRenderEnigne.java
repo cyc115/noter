@@ -54,10 +54,16 @@ public class MarkDown4JRenderEnigne implements RenderEngine.IORenderEngin {
         } catch (IOException ioe) {
             ioe.printStackTrace();
         }
-        if (rendered != null) {
-            for (RenderSurface rs : surfaceLst) {
-                rs.display(rendered);
-            }
+
+        StringBuilder sb = new StringBuilder();
+        sb.append("<link rel=\"stylesheet\" href=\"../ui/mdimport.css\">");
+        sb.append("<article>");
+        sb.append(rendered);
+        sb.append("</article>");
+
+        rendered = sb.toString();
+        for (RenderSurface rs : surfaceLst) {
+            rs.display(rendered);
         }
         return rendered;
     }
