@@ -23,12 +23,15 @@ import static main.AppUtils.lookUp;
 //12/07/14
 
 //DONE editor does not fill the pane
-//TODO enable horizontal wraping
+//DONE enable horizontal wraping
 //DONE firebug hide by default
+
+//17/07/14
+//DONE smart render: only render on change.
 
 
 public class MainApplication extends Application implements ApplicationInterface {
-    public double RENDER_DELAY = 1.0; //5 second delay
+    public double RENDER_DELAY = .5; //5 second delay
     private Editor editor;
     private RenderSurface displaySurface;
     private RenderEngine.IORenderEngin engine;
@@ -57,7 +60,7 @@ public class MainApplication extends Application implements ApplicationInterface
         primaryStage.show();
 
         //obtain controller of the root
-        mainController = (ControllerCommonInterface) fxmlLoader.getController();
+        mainController = fxmlLoader.getController();
         mainController.setControllerParentApplication(this);
 
         initEditor(root);
@@ -70,12 +73,19 @@ public class MainApplication extends Application implements ApplicationInterface
 
     private void startRealTimeRendering() {
         Timer timer = new Timer();
-
         timer.scheduleAtFixedRate(new TimerTask() {
 
             @Override
             public void run() {
-                Platform.runLater(() -> engine.renderToSurface());
+                long t = System.currentTimeMillis();
+
+                Platform.runLater(() -> {
+                    Boolean editorChanged = (Boolean) ((WebView) editor.getEditor())
+                            .getEngine()
+                            .executeScript("editor.hasEditorChanged()");
+                    if (editorChanged) engine.renderToSurface();
+                });
+                System.out.println("rerendered: " + (System.currentTimeMillis() - t));
             }
         }, 500, (int) (1000 * RENDER_DELAY));
     }

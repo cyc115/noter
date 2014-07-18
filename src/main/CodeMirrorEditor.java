@@ -21,6 +21,14 @@ public class CodeMirrorEditor implements Editor {
                         "t be set right now, feature not implemented");
     }
 
+    /**
+     * Get a reference of the encapsulated editor. in this case
+     * it is a webView
+     *
+     * @return return the underlying WebView that hosts the
+     * CodeMirror Editor
+     * @throws UnsupportedOperationException
+     */
     @Override
     public Object getEditor() throws UnsupportedOperationException {
         return editorView;
