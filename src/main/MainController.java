@@ -21,7 +21,10 @@ public class MainController implements ControllerCommonInterface {
 
     public void renderBtnAction(ActionEvent ae) {
         //case the engin to IORenderEngin to renderToSurface on renderToSurface() call
-        ((RenderEngine.IORenderEngin) application.getEngine()).renderToSurface();
+        RenderEngine.IORenderEngin engine = (RenderEngine.IORenderEngin) application.getEngine();
+        String s = engine.renderToSurface();
+        System.out.println(s);
+        return;
     }
 
     @Override

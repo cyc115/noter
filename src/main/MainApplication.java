@@ -28,6 +28,8 @@ import static main.AppUtils.lookUp;
 
 //17/07/14
 //DONE smart render: only render on change.
+//TODO implement search
+//TODO implement save document
 
 
 public class MainApplication extends Application implements ApplicationInterface {
