@@ -2,6 +2,8 @@ package main;
 
 import javafx.scene.Node;
 
+import java.io.File;
+import java.io.FileWriter;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -119,4 +121,17 @@ public class AppUtils {
         AppUtils.replaceAll(sb, "\r", "\\n");
     }
 
+    /**
+     * write a string to file
+     *
+     * @param file
+     * @param content
+     */
+    public static void saveToFile(File file, String content) {
+        try (FileWriter fw = new FileWriter(file)) {
+            fw.write(content);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }

@@ -14,8 +14,8 @@ public interface ControllerCommonInterface {
     void setControllerParentApplication(Application application);
 
     /**
-     * must be called after the application has finished
-     * initializing, this handles initialization of some
+     * must be called from the Application class after the application
+     * has finished initializing, this handles initialization of some
      * of the UI element controllers.
      */
     void postInit();

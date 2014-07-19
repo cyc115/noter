@@ -63,16 +63,19 @@ public class MainApplication extends Application implements ApplicationInterface
         primaryStage.setScene(scene);
         primaryStage.show();
 
-        //obtain controller of the root
-        mainController = fxmlLoader.getController();
-        mainController.setControllerParentApplication(this);
+
         //obtain stage
         mainStage = primaryStage;
-
+        //init display
         initEditor(root);
         initDisplay(root);
         initEngine();
         startRealTimeRendering();
+
+        //obtain controller of the root
+        mainController = fxmlLoader.getController();
+        mainController.setControllerParentApplication(this);
+        mainController.postInit();
 
         System.out.println("end Start()");
     }

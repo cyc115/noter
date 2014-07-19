@@ -1,6 +1,7 @@
 package main;
 
 import javafx.application.Application;
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.MenuItem;
@@ -20,6 +21,7 @@ public class MainController implements ControllerCommonInterface {
 
     {
         fileChooser = new FileChooser();
+        fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("markdown file", "*.md"));
         desktop = Desktop.getDesktop(); //used to open file uri with desktop default programs
     }
 
@@ -54,6 +56,7 @@ public class MainController implements ControllerCommonInterface {
     }
 
     public void OpenFileFromDir(ActionEvent ae) {
+
         File file = fileChooser.showOpenDialog(application.getStage());
         if (file != null) {
             //read from file then create a new content from file, then set the content
@@ -73,7 +76,6 @@ public class MainController implements ControllerCommonInterface {
             }
             AppUtils.beautifyStringForCodeMirror(sb);
 
-
         } catch (FileNotFoundException fnfe) {
             fnfe.printStackTrace();
         } catch (IOException ioe) {
@@ -83,10 +85,6 @@ public class MainController implements ControllerCommonInterface {
     }
 
 
-    //TODO unimplemented
-    public void saveToFile(ActiveEvent ae) {
-
-    }
 
     //TODO unimplemented
     public void exportToHTML(ActionEvent ae) {
@@ -100,7 +98,14 @@ public class MainController implements ControllerCommonInterface {
 
     //TODO unimplemented
     public void saveToFile(ActionEvent ae) {
-
+        File file = fileChooser.showSaveDialog(application.getStage());
+        if (file != null) {
+            Platform.runLater(() -> {
+                ContentObject c = editor.getContent();
+                String content = c.getContentText();
+                AppUtils.saveToFile(file, content);
+            });
+        }
     }
 
 }
