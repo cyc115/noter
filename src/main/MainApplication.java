@@ -10,6 +10,8 @@ import javafx.scene.web.WebView;
 import javafx.stage.Stage;
 
 import javax.naming.OperationNotSupportedException;
+import java.io.InputStream;
+import java.net.URL;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -56,9 +58,9 @@ public class MainApplication extends Application implements ApplicationInterface
         System.out.println("enter Start()");
 
         FXMLLoader fxmlLoader = new FXMLLoader();
-        Parent root = fxmlLoader.load(
-                getClass().getResource("../ui/note_main.fxml")
-                        .openStream());
+        URL resource = getClass().getResource("../ui/note_main.fxml");
+        InputStream inputStream = resource.openStream();
+        Parent root = fxmlLoader.load(inputStream);
 
         primaryStage.setTitle("Noter 0.1");
         scene = new Scene(root);

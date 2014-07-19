@@ -4,7 +4,7 @@
     <properties id="javafx-properties">
       <options>
         <option name="appClass" value="sample.Main" />
-        <option name="description" value="csa&#9;&#9;&#9;" />
+        <option name="description" value="csa" />
         <option name="htmlParamFile" value="" />
         <option name="paramFile" value="" />
         <option name="title" value="NoterNew" />

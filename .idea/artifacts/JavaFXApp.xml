@@ -3,7 +3,7 @@
     <output-path>$PROJECT_DIR$/out/artifacts/JavaFXApp</output-path>
     <properties id="javafx-properties">
       <options>
-        <option name="appClass" value="sample.Main" />
+        <option name="appClass" value="main.MainApplication" />
         <option name="convertCss2Bin" value="true" />
         <option name="description" value="description" />
         <option name="htmlParamFile" value="" />
