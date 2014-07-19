@@ -88,5 +88,35 @@ public class AppUtils {
         l(objectTriype, Level.WARNING, msg);
     }
 
+    /**
+     * replace all occurances of a string to b in a strBuilder
+     *
+     * @param builder
+     * @param from
+     * @param to
+     */
+    public static void replaceAll(StringBuilder builder, String from, String to) {
+        int index = builder.indexOf(from);
+        while (index != -1) {
+            builder.replace(index, index + from.length(), to);
+            index += to.length(); // Move to the end of the replacement
+            index = builder.indexOf(from, index);
+        }
+    }
+
+    /**
+     * convert text to text formate supported by the codeMirror.
+     * replaces  ' , \n , \r , to explict formates
+     *
+     * @param sb
+     */
+    public static void beautifyStringForCodeMirror(StringBuilder sb) {
+        //need to transform special characters :
+        // see : http://stackoverflow.com/questions/17802239/jsexception-while-loading-a-file-in-a-codemirror-based-editor-using-java-using-s
+        AppUtils.replaceAll(sb, "'", "\\'");
+        AppUtils.replaceAll(sb, System.getProperty("line.separator"), "\\n");
+        AppUtils.replaceAll(sb, "\n", "\\n");
+        AppUtils.replaceAll(sb, "\r", "\\n");
+    }
 
 }

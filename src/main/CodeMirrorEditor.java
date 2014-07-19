@@ -1,5 +1,7 @@
 package main;
 
+import javafx.application.Platform;
+import javafx.scene.web.WebEngine;
 import javafx.scene.web.WebView;
 
 /**
@@ -13,13 +15,8 @@ public class CodeMirrorEditor implements Editor {
         content = new ContentObject();
     }
 
-    @Override
-    public Editor setContent(ContentObject content)
-            throws UnsupportedOperationException {
-        throw new UnsupportedOperationException(
-                "CodeMirrotrEditor's content canno" +
-                        "t be set right now, feature not implemented");
-    }
+    private WebEngine webEngine;
+
 
     /**
      * Get a reference of the encapsulated editor. in this case
@@ -43,12 +40,43 @@ public class CodeMirrorEditor implements Editor {
                             "Editor of the type: " + editor.getClass().getName());
 
         editorView = (WebView) editor;
+        webEngine = editorView.getEngine();
     }
 
     @Override
     public ContentObject getContent() {
         assert (editorView != null);
-        content.setContentText((String) (editorView.getEngine().executeScript("editor.getValue();")));
+        content.setContentText((String) (webEngine.executeScript("editor.getValue();")));
         return content;
     }
+
+    @Override
+    public Editor setContent(ContentObject content)
+            throws UnsupportedOperationException {
+        this.content = content;
+        AppUtils.li(this, "update content to :" + content.getContentText());
+        Platform.runLater(() -> updateNewContentUI(content));
+        return this;
+    }
+
+    /**
+     * updates the codeMirror to the new content
+     */
+    private void updateNewContentUI(ContentObject content) {
+        setCodeMirrorText(content.getContentText());
+    }
+
+    /**
+     * set the given string to codemirror
+     *
+     * @param s
+     */
+    private void setCodeMirrorText(String s) {
+
+        String script = "var tempText ='" + s + "';";
+        webEngine.executeScript(script);
+        webEngine.executeScript("editor.setValue(tempText);");
+    }
+
+
 }

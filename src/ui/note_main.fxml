@@ -23,9 +23,17 @@
             <menus>
                 <Menu mnemonicParsing="false" text="File">
                     <items>
-                        <MenuItem mnemonicParsing="false" text="Close"/>
-                        <MenuItem id="newMenuItem" mnemonicParsing="false" text="New ..."/>
+                        <MenuItem id="newFileMenuItem" mnemonicParsing="false" text="New ..." fx:id="newFile"/>
+                        <MenuItem mnemonicParsing="false" text="Open" fx:id="OpenFileFromDirMenuItem"
+                                  onAction="#OpenFileFromDir"/>
+                        <MenuItem mnemonicParsing="false" text="Save" fx:id="saveMenuItem" onAction="#saveToFile"/>
+                        <SeparatorMenuItem mnemonicParsing="false"/>
                         <MenuItem fx:id="renderBtn" mnemonicParsing="false" onAction="#renderBtnAction" text="Render"/>
+                        <MenuItem id="ExportHTML" fx:id="exportToHTMLMenuItem" onAction="#exportToHTML"
+                                  mnemonicParsing="false" text="Export to html"/>
+                        <SeparatorMenuItem mnemonicParsing="false"/>
+                        <MenuItem mnemonicParsing="false" text="Close" fx:id="closeEditorMenuItem"
+                                  onAction="#exitEditor"/>
                     </items>
                 </Menu>
                 <Menu mnemonicParsing="false" text="Edit">

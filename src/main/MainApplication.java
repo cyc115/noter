@@ -43,12 +43,14 @@ public class MainApplication extends Application implements ApplicationInterface
 
 
     private Scene scene;
+    private Stage mainStage;
 
     public static void main(String[] args) {
         launch(args);
     }
+
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage primaryStage) throws Exception {
         System.out.println("enter Start()");
 
         FXMLLoader fxmlLoader = new FXMLLoader();
@@ -64,6 +66,8 @@ public class MainApplication extends Application implements ApplicationInterface
         //obtain controller of the root
         mainController = fxmlLoader.getController();
         mainController.setControllerParentApplication(this);
+        //obtain stage
+        mainStage = primaryStage;
 
         initEditor(root);
         initDisplay(root);
@@ -106,6 +110,7 @@ public class MainApplication extends Application implements ApplicationInterface
     private void onPostInit() {
         mainController.postInit();
     }
+
     private void initDisplay(Parent root) throws ObjectNotFoundException {
         WebView display = lookUp(root, "#webdisplay", WebView.class);
         display.getEngine().load("https://google.com");
@@ -146,4 +151,9 @@ public class MainApplication extends Application implements ApplicationInterface
     public RenderEngine getEngine() {
         return engine;
     }
+
+    public Stage getStage() {
+        return mainStage;
+    }
+
 }
