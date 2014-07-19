@@ -23,17 +23,20 @@
             <menus>
                 <Menu mnemonicParsing="false" text="File">
                     <items>
-                        <MenuItem id="newFileMenuItem" mnemonicParsing="false" text="New ..." fx:id="newFile"/>
-                        <MenuItem mnemonicParsing="false" text="Open" fx:id="OpenFileFromDirMenuItem"
-                                  onAction="#OpenFileFromDir"/>
-                        <MenuItem mnemonicParsing="false" text="Save" fx:id="saveMenuItem" onAction="#saveToFile"/>
+                        <MenuItem id="newFileMenuItem" fx:id="newFile" mnemonicParsing="false" text="New ..."/>
+                        <MenuItem fx:id="OpenFileFromDirMenuItem" mnemonicParsing="false" onAction="#OpenFileFromDir"
+                                  text="Open"/>
+                        <MenuItem fx:id="saveMenuItem" mnemonicParsing="false" onAction="#saveToFile"
+                                  text="Save as ..."/>
+                        <MenuItem mnemonicParsing="false" text="Save"/>
                         <SeparatorMenuItem mnemonicParsing="false"/>
                         <MenuItem fx:id="renderBtn" mnemonicParsing="false" onAction="#renderBtnAction" text="Render"/>
-                        <MenuItem id="ExportHTML" fx:id="exportToHTMLMenuItem" onAction="#exportToHTML"
-                                  mnemonicParsing="false" text="Export to html"/>
+                        <CheckMenuItem mnemonicParsing="false" text="Real time rendering"/>
+                        <MenuItem id="ExportHTML" fx:id="exportToHTMLMenuItem" mnemonicParsing="false"
+                                  onAction="#exportToHTML" text="Export to html"/>
                         <SeparatorMenuItem mnemonicParsing="false"/>
-                        <MenuItem mnemonicParsing="false" text="Close" fx:id="closeEditorMenuItem"
-                                  onAction="#exitEditor"/>
+                        <MenuItem fx:id="closeEditorMenuItem" mnemonicParsing="false" onAction="#exitEditor"
+                                  text="Close"/>
                     </items>
                 </Menu>
                 <Menu mnemonicParsing="false" text="Edit">

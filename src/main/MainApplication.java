@@ -19,17 +19,19 @@ import static main.AppUtils.lookUp;
 //DONE change the menu into something prettier
 //DONE implement a concrete RenderEngine
 //DONE implement a concrete RenderSurface
-
 //12/07/14
-
 //DONE editor does not fill the pane
 //DONE enable horizontal wraping
 //DONE firebug hide by default
-
 //17/07/14
 //DONE smart render: only render on change.
 //TODO implement search
+//DONE implement save as... document
+//18/07/14
+//DONE implement open document
 //TODO implement save document
+//TODO implement New document menu
+//TODO implement realtime Rendering on/off switch in menu
 
 
 public class MainApplication extends Application implements ApplicationInterface {
@@ -62,7 +64,6 @@ public class MainApplication extends Application implements ApplicationInterface
         scene = new Scene(root);
         primaryStage.setScene(scene);
         primaryStage.show();
-
 
         //obtain stage
         mainStage = primaryStage;
