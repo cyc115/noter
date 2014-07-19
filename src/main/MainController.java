@@ -63,6 +63,8 @@ public class MainController implements ControllerCommonInterface {
             application.getEditor().setContent(
                     new ContentObject().setContentText(readFile(file))
             );
+            GlobalVar.setCurrentWorkingFile(file);
+
         }
     }
 
@@ -84,9 +86,6 @@ public class MainController implements ControllerCommonInterface {
         return sb.toString();
     }
 
-
-
-    //TODO unimplemented
     public void exportToHTML(ActionEvent ae) {
         String s = application.getEngine().renderToSurface(editor.getContent().getContentText());
         File file = AppUtils.buildFileChooser("Export to webpage", "*html")
@@ -94,21 +93,34 @@ public class MainController implements ControllerCommonInterface {
         AppUtils.saveToFile(file, s);
     }
 
-    //TODO unimplemented
+    //TODO if file not saved then ask to save
     public void exitEditor(ActionEvent ae) {
-
+        System.exit(0);
     }
 
-    //TODO unimplemented
-    public void saveToFile(ActionEvent ae) {
-        File file = markDownFileChooser.showSaveDialog(application.getStage());
-        if (file != null) {
+    public void saveFile(ActionEvent ae){
+        File file = GlobalVar.getCurrentWorkingFile();
+        saveFileHelper(file);
+    }
+
+    private void saveFileHelper(File file) {
+        if (file == null){
+            //TODO ask where file will be saved.
+        }
+        else {
             Platform.runLater(() -> {
                 ContentObject c = editor.getContent();
                 String content = c.getContentText();
                 AppUtils.saveToFile(file, content);
             });
+            //update current file
+            GlobalVar.setCurrentWorkingFile(file);
         }
+    }
+
+    public void saveToFile(ActionEvent ae) {
+        File file = markDownFileChooser.showSaveDialog(application.getStage());
+        saveFileHelper(file);
     }
 
 }

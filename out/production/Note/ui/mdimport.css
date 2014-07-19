@@ -1,0 +1,6 @@
+    article {
+        min-height: 15px;
+        height: auto;
+        font-weight: normal;
+        word-wrap: break-word;
+    }

@@ -1,0 +1,129 @@
+<!doctype html>
+<html debug="false">
+
+<head>
+    <link rel="stylesheet" href="../codemirror-4.3/lib/codemirror.css">
+    <script src="../codemirror-4.3/lib/codemirror.js"></script>
+    <script src='../ui/firebug-lite-compressed.js'></script>
+    <link rel="stylesheet" href="../ui/firebug-lite.css">
+    <!--autocomplete-->
+    <script src="../codemirror-4.3/addon/hint/show-hint.js"></script>
+    <script src="../codemirror-4.3/addon/hint/anyword-hint.js"></script>
+    <link rel="stylesheet" href="../codemirror-4.3/addon/hint/show-hint.css">
+    <link red="stylesheet" href="gfm.css">
+
+    <!--githubflavored markdown -->
+    <script src='../codemirror-4.3/addon/mode/overlay.js'></script>
+    <script src='../codemirror-4.3/mode/xml/xml.js'></script>
+    <script src='../codemirror-4.3/mode/gfm/gfm.js'></script>
+    <script src="../codemirror-4.3/mode/markdown/markdown.js"></script>
+    <script src="../codemirror-4.3/mode/clike/clike.js"></script>
+    <script src="../codemirror-4.3/mode/css/css.js"></script>
+    <script src="../codemirror-4.3/mode/htmlmixed/htmlmixed.js"></script>
+
+    <!--emacs -->
+    <script src="../codemirror-4.3/keymap/emacs.js"></script>
+</head>
+
+<body>
+<form>
+    <textarea id="code" name="code" class="fullWidth">
+        this is a header
+        ===
+        > this is a block
+
+        ```
+        this is a code block
+        ```
+
+        this is normal text
+    </textarea>
+</form>
+<script>
+    var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+        lineNumbers: true,
+        matchBrackets: true,
+        mode: "text/x-markdown",
+        extraKeys: {"Ctrl-Space": "autocomplete"},
+        keyMap: "emacs",
+        lineWrapping: true,
+        autofocus :true,
+    });
+
+    CodeMirror.commands.autocomplete = function(cm) {
+        cm.showHint({hint: CodeMirror.hint.anyword});
+    }
+    //==============================================================
+    //browser calls the `boolean hasEditorChanged()` method to check if the 
+    // renderSurface should be updated: renderSurface should only be 
+    //updated when a sufficient time has elapsed since last user input.
+    editor.docLastChanged = (new Date()).getTime();
+    editor.changed = true; //true if content has changed since last `change` hander called 
+    
+    editor.hasEditorChanged = function(){
+        var t = (new Date()).getTime();
+        if ((t - editor.docLastChanged) > 1000 && editor.changed) { //if no change for 1 sec
+            editor.changed = false;
+            return true;
+        }
+        else return false;
+    }
+    //register onChange handler to update the editor.docLastChanged variable
+    var changeHandler = function(){
+        editor.docLastChanged = (new Date()).getTime();
+        editor.changed = true;
+        //console.log("changed" + editor.docLastChanged);
+    }
+    
+    editor.on('change', changeHandler);
+
+
+
+
+
+
+
+</script>
+<!--used for debugging purpose: cal l this method to inspect object -->
+<script>
+    function listProp(o) {
+    var objectToInspect;
+    var result = [];
+
+    for (objectToInspect = o; objectToInspect !== null; objectToInspect = Object.getPrototypeOf(objectToInspect)) {
+        result = result.concat(Object.getOwnPropertyNames(objectToInspect));
+    }
+    return result;
+
+}
+
+
+
+
+
+
+
+
+
+
+</script>
+
+<!-- dynamically fit editor to code-->
+<style type="text/css">
+    .CodeMirror {
+    height: auto;
+    pre > * { text-indent: 0px; }
+    }
+    .CodeMirror-scroll {
+    overflow-y: hidden;
+    overflow-x: auto;
+    }
+    .fullWidth {
+    width: 100%;
+    }
+
+</style>
+
+</body>
+
+</html>

@@ -28,7 +28,7 @@
                                   text="Open"/>
                         <MenuItem fx:id="saveMenuItem" mnemonicParsing="false" onAction="#saveToFile"
                                   text="Save as ..."/>
-                        <MenuItem mnemonicParsing="false" text="Save"/>
+                        <MenuItem mnemonicParsing="false" text="Save" onAction="#saveFile"/>
                         <SeparatorMenuItem mnemonicParsing="false"/>
                         <MenuItem fx:id="renderBtn" mnemonicParsing="false" onAction="#renderBtnAction" text="Render"/>
                         <CheckMenuItem mnemonicParsing="false" text="Real time rendering"/>

@@ -1,0 +1,45 @@
+<!doctype html>
+<html debug='false'>
+
+<head>
+    <link rel="stylesheet" href="../codemirror-4.3/lib/codemirror.css">
+    <script src="../codemirror-4.3/lib/codemirror.js"></script>
+    <!--<script src="../codemirror-4.3/mode/css/css.js"></script> -->
+    <!--<link rel="stylesheet" href="../codemirror-4.3/addon/display/fullscreen.css"> -->
+    <!--<script src="../codemirror-4.3/addon/display/fullscreen.js"></script> -->
+    <script src="../codemirror-4.3/mode/markdown/markdown.js"></script>
+
+    <script src='../ui/firebug-lite-compressed.js'></script>
+    <script src="./customTools.js"></script>
+</head>
+<!-- onload is defined in the customTools -->
+
+<body onload="onload()">
+
+<form>
+    <textarea id="code" name="code">
+        Hello world
+        ===============
+        1. this ls a list
+        2. this is another element
+        ```java
+        System.out.println("helloworld");
+        ```
+        that was a code block multiple
+        xenter multiple enter
+    </textarea>
+</form>
+<!-- dynamically fit editor to code-->
+<style type="text/css">
+    .CodeMirror {
+    height: auto;
+    pre > * { text-indent: 0px; }
+    }
+    .CodeMirror-scroll {
+    overflow-y: hidden;
+    overflow-x: auto;
+    }
+</style>
+
+</body>
+</html>

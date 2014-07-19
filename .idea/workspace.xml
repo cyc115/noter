@@ -11,11 +11,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="simple refactoring">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ui/MainController.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/AppUtils.java" afterPath="$PROJECT_DIR$/src/main/AppUtils.java" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="added export function">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/GlobalVar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/MainApplication.java" afterPath="$PROJECT_DIR$/src/main/MainApplication.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/MainController.java" afterPath="$PROJECT_DIR$/src/main/MainController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/MarkDown4JRenderEnigne.java" afterPath="$PROJECT_DIR$/src/main/MarkDown4JRenderEnigne.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ui/note_main.fxml" afterPath="$PROJECT_DIR$/src/ui/note_main.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -77,11 +78,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CodeMirrorEditor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/CodeMirrorEditor.java">
+      <file leaf-file-name="MainApplication.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/MainApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1394">
-              <caret line="48" column="89" selection-start-line="48" selection-start-column="89" selection-end-line="48" selection-end-column="89" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="627" max-vertical-offset="2414">
+              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="note_main.fxml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ui/note_main.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5833333" vertical-offset="356" max-vertical-offset="1037">
+              <caret line="30" column="69" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -90,18 +104,8 @@
       <file leaf-file-name="MainController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1374" max-vertical-offset="2464">
-              <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MarkDown4JRenderEnigne.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/MarkDown4JRenderEnigne.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28674698" vertical-offset="901" max-vertical-offset="1700">
-              <caret line="64" column="34" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+            <state vertical-scroll-proportion="-231.5" vertical-offset="1458" max-vertical-offset="2074">
+              <caret line="123" column="5" selection-start-line="123" selection-start-column="5" selection-end-line="123" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -150,13 +154,14 @@
         <option value="$PROJECT_DIR$/src/main/Editor.java" />
         <option value="$PROJECT_DIR$/src/main/ApplicationInterface.java" />
         <option value="$PROJECT_DIR$/src/main/ContentObject.java" />
-        <option value="$PROJECT_DIR$/src/ui/note_main.fxml" />
         <option value="$PROJECT_DIR$/src/main/CodeMirrorEditor.java" />
         <option value="$PROJECT_DIR$/src/main/ControllerCommonInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/MainApplication.java" />
         <option value="$PROJECT_DIR$/src/main/AppUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/MarkDown4JRenderEnigne.java" />
+        <option value="$PROJECT_DIR$/src/main/GlobalVar.java" />
+        <option value="$PROJECT_DIR$/src/main/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/MainApplication.java" />
+        <option value="$PROJECT_DIR$/src/ui/note_main.fxml" />
       </list>
     </option>
   </component>
@@ -438,7 +443,7 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="commit&#9;ACTION&#9;CheckinProject&#10;renam&#9;ACTION&#9;RenameElement&#10;contro&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/main/MainController.java&#10;method&#9;ACTION&#9;ExtractMethod&#10;line&#9;ACTION&#9;EditorToggleShowLineNumbers&#10;build&#9;ACTION&#9;BuildArtifact&#10;clean&#9;ACTION&#9;Maven_8bdcdcbcMavenNotera57acba7clean&#10;arti&#9;ACTION&#9;BuildArtifact&#10;push&#9;ACTION&#9;Git.Push&#10;rename&#9;ACTION&#9;RenameElement&#10;add all&#9;ACTION&#9;AddAllToFavorites&#10;variable&#9;ACTION&#9;IntroduceVariable&#10;variab&#9;ACTION&#9;IntroduceVariable&#10;extract&#9;ACTION&#9;IntroduceActionsGroup&#10;implement method&#9;ACTION&#9;ImplementMethods&#10;rena&#9;ACTION&#9;RenameElement&#10;debug&#9;ACTION&#9;DebugClass&#10;implement met&#9;ACTION&#9;ImplementMethods&#10;refac&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;lomb&#9;null&#9;null&#10;lombok&#9;ACTION&#9;delombokAny&#10;lom&#9;ACTION&#9;DelombokActionGroup&#10;implement&#9;ACTION&#9;ImplementMethods&#10;maina&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/main/MainApplication.java&#10;generate&#9;ACTION&#9;Generate&#10;gen&#9;ACTION&#9;Generate&#10;html&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/ui/editor.html&#10;ref&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;refa&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;plugin&#9;null&#9;null&#10;new&#9;ACTION&#9;NewGroup&#10;getter&#9;ACTION&#9;GenerateGetter&#10;gene&#9;ACTION&#9;Generate&#10;introduce&#9;null&#9;null&#10;import&#9;ACTION&#9;ImportModule&#10;comment blc&#9;ACTION&#9;CommentByBlockComment&#10;main&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/main/Main.java&#10;note&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/ui/note_main.fxml&#10;project struct&#9;ACTION&#9;TemplateProjectStructure&#10;genera&#9;ACTION&#9;Generate&#10;GENERATE&#9;ACTION&#9;Generate&#10;ommit&#9;ACTION&#9;Vcs.CheckCommitMessageSpelling&#10;render&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/main/RenderSurface.java&#10;we&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/main/WebViewRenderEngine.java&#10;commi&#9;ACTION&#9;CheckinProject&#10;build art&#9;ACTION&#9;BuildArtifact&#10;full screen&#9;ACTION&#9;ToggleFullScreen&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;github&#9;null&#9;null&#10;git&#9;ACTION&#9;Git.Init" />
+    <property name="SearchEverywhereHistoryKey" value="note&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/ui/note_main.fxml&#10;present&#9;ACTION&#9;TogglePresentationMode&#10;run&#9;ACTION&#9;ActivateRunToolWindow&#10;main&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/main/MainController.java&#10;vari&#9;ACTION&#9;IntroduceVariable&#10;con&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/main/MainController.java&#10;rename&#9;ACTION&#9;RenameElement&#10;glo&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/main/GlobalVar.java&#10;c&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/main/MainController.java&#10;presen&#9;ACTION&#9;TogglePresentationMode&#10;new&#9;ACTION&#9;NewGroup&#10;find&#9;ACTION&#9;FindModal&#10;search&#9;ACTION&#9;SearchEverywhere&#10;commit&#9;ACTION&#9;CheckinProject&#10;renam&#9;ACTION&#9;RenameElement&#10;contro&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/main/MainController.java&#10;method&#9;ACTION&#9;ExtractMethod&#10;line&#9;ACTION&#9;EditorToggleShowLineNumbers&#10;build&#9;ACTION&#9;BuildArtifact&#10;clean&#9;ACTION&#9;Maven_8bdcdcbcMavenNotera57acba7clean&#10;arti&#9;ACTION&#9;BuildArtifact&#10;push&#9;ACTION&#9;Git.Push&#10;add all&#9;ACTION&#9;AddAllToFavorites&#10;variable&#9;ACTION&#9;IntroduceVariable&#10;variab&#9;ACTION&#9;IntroduceVariable&#10;extract&#9;ACTION&#9;IntroduceActionsGroup&#10;implement method&#9;ACTION&#9;ImplementMethods&#10;rena&#9;ACTION&#9;RenameElement&#10;debug&#9;ACTION&#9;DebugClass&#10;implement met&#9;ACTION&#9;ImplementMethods&#10;refac&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;lomb&#9;null&#9;null&#10;lombok&#9;ACTION&#9;delombokAny&#10;lom&#9;ACTION&#9;DelombokActionGroup&#10;implement&#9;ACTION&#9;ImplementMethods&#10;maina&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/main/MainApplication.java&#10;generate&#9;ACTION&#9;Generate&#10;gen&#9;ACTION&#9;Generate&#10;html&#9;FILE&#9;file:///home/yuechuan/AndroidStudioProjects/Note/src/ui/editor.html&#10;ref&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;refa&#9;ACTION&#9;Refactorings.QuickListPopupAction&#10;plugin&#9;null&#9;null&#10;getter&#9;ACTION&#9;GenerateGetter&#10;gene&#9;ACTION&#9;Generate&#10;introduce&#9;null&#9;null&#10;import&#9;ACTION&#9;ImportModule&#10;comment blc&#9;ACTION&#9;CommentByBlockComment&#10;project struct&#9;ACTION&#9;TemplateProjectStructure&#10;genera&#9;ACTION&#9;Generate&#10;GENERATE&#9;ACTION&#9;Generate" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../MavenNoter" />
     <property name="FullScreen" value="false" />
     <property name="options.lastSelected" value="reference.projectsettings.compiler.javacompiler" />
@@ -796,7 +801,11 @@
       <created>1405782663288</created>
       <updated>1405782663288</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="added export function">
+      <created>1405784508239</created>
+      <updated>1405784508239</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -823,7 +832,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -834,7 +843,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31730768" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15256798" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29166666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.49198717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4903846" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3525641" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28021148" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
@@ -870,11 +879,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40491453" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23717949" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39903846" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29166666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29166666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4903846" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3534884" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3525641" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28021148" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28021148" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -895,7 +904,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="added general autocomplete support, firebug is hidden by default" />
     <MESSAGE value="fixed auto complete css not fund" />
     <MESSAGE value="work in progrss : gfm&#10;" />
     <MESSAGE value="added javascript mtd listProp(obejct o) to inspect object&#10;" />
@@ -920,19 +928,14 @@
     <MESSAGE value="implemented save file , fixed bug: forgot to call mainContoller.postInit() method after Application has initialzied" />
     <MESSAGE value="updated todo list" />
     <MESSAGE value="simple refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="simple refactoring" />
+    <MESSAGE value="added export function" />
+    <option name="LAST_COMMIT_MESSAGE" value="added export function" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/MainController.java</url>
-          <line>106</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/MainController.java</url>
           <line>45</line>
@@ -1180,13 +1183,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66" vertical-offset="484" max-vertical-offset="884">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestWv/src/CodeEditor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.275" vertical-offset="816" max-vertical-offset="1547">
@@ -1205,6 +1201,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="139" max-vertical-offset="9792">
           <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1212,17 +1209,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
           <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/note_main.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40869564" vertical-offset="326" max-vertical-offset="901">
-          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1273,26 +1259,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/MainApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7562189" vertical-offset="1162" max-vertical-offset="3124">
-          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/ControllerCommonInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5493976" vertical-offset="61" max-vertical-offset="476">
           <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/CodeMirrorEditor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="473" max-vertical-offset="1394">
-          <caret line="48" column="89" selection-start-line="48" selection-start-column="89" selection-end-line="48" selection-end-column="89" />
           <folding />
         </state>
       </provider>
@@ -1313,18 +1283,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1374" max-vertical-offset="2464">
-          <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/MarkDown4JRenderEnigne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28674698" vertical-offset="901" max-vertical-offset="1700">
           <caret line="64" column="34" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/CodeMirrorEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="473" max-vertical-offset="1394">
+          <caret line="48" column="89" selection-start-line="48" selection-start-column="89" selection-end-line="48" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/GlobalVar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6701434" vertical-offset="107" max-vertical-offset="874">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6975228" vertical-offset="741" max-vertical-offset="1508">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-231.5" vertical-offset="1458" max-vertical-offset="2074">
+          <caret line="123" column="5" selection-start-line="123" selection-start-column="5" selection-end-line="123" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/MainApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="627" max-vertical-offset="2414">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/note_main.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5833333" vertical-offset="356" max-vertical-offset="1037">
+          <caret line="30" column="69" selection-start-line="30" selection-start-column="69" selection-end-line="30" selection-end-column="69" />
           <folding />
         </state>
       </provider>

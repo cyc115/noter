@@ -89,7 +89,7 @@ public class MainApplication extends Application implements ApplicationInterface
 
             @Override
             public void run() {
-                long t = System.currentTimeMillis();
+                //long t = System.currentTimeMillis();
 
                 Platform.runLater(() -> {
                     Boolean editorChanged = (Boolean) ((WebView) editor.getEditor())
@@ -97,7 +97,7 @@ public class MainApplication extends Application implements ApplicationInterface
                             .executeScript("editor.hasEditorChanged()");
                     if (editorChanged) engine.renderToSurface();
                 });
-                System.out.println("rerendered: " + (System.currentTimeMillis() - t));
+                //System.out.println("rerendered: " + (System.currentTimeMillis() - t));
             }
         }, 500, (int) (1000 * RENDER_DELAY));
     }
