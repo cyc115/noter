@@ -66,10 +66,10 @@ public class MarkDown4JRenderEnigne implements RenderEngine.IORenderEngin {
         }
 
         StringBuilder sb = new StringBuilder();
-        sb.append("<link rel=\"stylesheet\" href=\"../ui/mdimport.css\">\n");
-        sb.append("<link rel =\"stylesheet\" href=\"../ui/gfm.css\">\n");
-        sb.append("<link rel = \"stylesheet\" href=\"../ui/highlightjs/styles/github.css\">\n");
-        sb.append("<script src=\"../ui/highlightjs/highlight.pack.js\"> </script>\n");
+        sb.append("<link rel=\"stylesheet\" href=\"./src/ui/mdimport.css\">\n");
+        sb.append("<link rel =\"stylesheet\" href=\"./src/ui/gfm.css\">\n");
+        sb.append("<link rel = \"stylesheet\" href=\"./src/ui/highlightjs/styles/github.css\">\n");
+        sb.append("<script src=\"./src/ui/highlightjs/highlight.pack.js\"> </script>\n");
         sb.append("<article>\n");
         sb.append(rendered);
         sb.append("\n</article>\n");

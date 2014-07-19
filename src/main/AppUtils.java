@@ -1,6 +1,7 @@
 package main;
 
 import javafx.scene.Node;
+import javafx.stage.FileChooser;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -133,5 +134,23 @@ public class AppUtils {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    /**
+     * return a custonized fileChooser
+     *
+     * @param description
+     * @param ext
+     * @return
+     */
+    public static FileChooser buildFileChooser(String description, String ext) {
+        FileChooser fc = new FileChooser();
+        fc.getExtensionFilters().add(new FileChooser.ExtensionFilter(description, ext));
+        return fc;
+    }
+
+    public static void printWorkingDir() {
+        System.out.println("Working Directory = " +
+                System.getProperty("user.dir"));
     }
 }

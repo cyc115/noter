@@ -12,7 +12,7 @@ import java.io.*;
 
 public class MainController implements ControllerCommonInterface {
 
-    FileChooser fileChooser;
+    FileChooser markDownFileChooser;
     Desktop desktop;
     @FXML
     private MenuItem renderBtn;
@@ -20,8 +20,8 @@ public class MainController implements ControllerCommonInterface {
     private Editor editor;
 
     {
-        fileChooser = new FileChooser();
-        fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("markdown file", "*.md"));
+        markDownFileChooser = new FileChooser();
+        markDownFileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("markdown file", "*.md"));
         desktop = Desktop.getDesktop(); //used to open file uri with desktop default programs
     }
 
@@ -51,13 +51,13 @@ public class MainController implements ControllerCommonInterface {
         //case the engin to IORenderEngin to renderToSurface on renderToSurface() call
         RenderEngine.IORenderEngin engine = (RenderEngine.IORenderEngin) application.getEngine();
         String s = engine.renderToSurface();
-        System.out.println(s);
+        AppUtils.printWorkingDir();
         return;
     }
 
     public void OpenFileFromDir(ActionEvent ae) {
 
-        File file = fileChooser.showOpenDialog(application.getStage());
+        File file = markDownFileChooser.showOpenDialog(application.getStage());
         if (file != null) {
             //read from file then create a new content from file, then set the content
             application.getEditor().setContent(
@@ -88,7 +88,10 @@ public class MainController implements ControllerCommonInterface {
 
     //TODO unimplemented
     public void exportToHTML(ActionEvent ae) {
-
+        String s = application.getEngine().renderToSurface(editor.getContent().getContentText());
+        File file = AppUtils.buildFileChooser("Export to webpage", "*html")
+                .showSaveDialog(application.getStage());
+        AppUtils.saveToFile(file, s);
     }
 
     //TODO unimplemented
@@ -98,7 +101,7 @@ public class MainController implements ControllerCommonInterface {
 
     //TODO unimplemented
     public void saveToFile(ActionEvent ae) {
-        File file = fileChooser.showSaveDialog(application.getStage());
+        File file = markDownFileChooser.showSaveDialog(application.getStage());
         if (file != null) {
             Platform.runLater(() -> {
                 ContentObject c = editor.getContent();
